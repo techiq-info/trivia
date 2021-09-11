@@ -1,0 +1,758 @@
+
+@media 
+  (min-device-width: 350px)
+  and (max-device-width:575px) { 
+  .navbar-brand{
+    width: 60%;
+  }
+    h2{
+      font-size: 27px!important;
+    }
+    h4{
+      font-size: 20px;
+    }
+    p{
+      font-size: 14px;
+      line-height: 18px;
+    }
+    .real h2 {
+    margin-top: 2rem;
+    
+}
+
+h2:after {
+    content: '';
+    display: block;
+    width: 35px!important;
+    height: 3px;
+    background: #007bff;
+    position: relative;
+    top: 0px;
+    left: 0;
+    margin: 10px 0;
+}
+
+.mt-to{
+    margin-top: 10px;
+}
+/*home banner*/
+
+.box-2 { 
+    padding: 16px 15px;
+}
+ 
+ .mt-50{
+    margin-top: 50px;
+ }
+
+/*
+.bg-1 {
+    background-image: url(./img/banner-1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 75vh;
+    position: relative;
+}
+
+.bg-2 {
+    background-image: url(./img/banner-2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 75vh;
+    position: relative;
+}
+
+.bg-3 {
+    background-image: url(./img/banner-3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 75vh;
+    position: relative;
+}*/
+ /*
+.box-over{
+    bottom: 70px;
+}*/
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 15px;
+    margin: 8px 0;
+}
+.whats-app{
+    font-size: 20px;
+}
+.scroll-top{
+    font-size: 20px;
+    padding: 7px 14px;
+}
+.box-1{
+    padding: 10px 30px;
+}
+.card{
+    height: 50px;
+}
+.box-1 h1{
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+.box-2 i {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+.fb-box {
+    font-size: 14px;
+}
+.mr-84 {
+    margin-left: 0px;
+}
+.text-box h2 { 
+    margin-top: 150px;
+}
+.text-box {
+    
+    width: 80%;
+    left: 13%;
+    right: 50%;
+     
+}
+.carousel-caption { 
+    right: 15%!important;
+    top: 20px; 
+    left: 7%!important; 
+    }
+.carousel {
+    height:auto!important;
+} 
+.carousel img { 
+    height: auto;
+}
+.real h2:after {
+   
+    width: 35px;
+    top: 0px;
+    left: 0;
+    margin: 10px 0;
+}
+
+.car-btn{
+color: #fff!important;    margin-top: -14px;margin-left: 14rem;
+}
+/*car inc*/
+ .mt-mo15{
+  margin-top: 15px;
+ }
+
+.car-i {
+    top: 28%;
+}
+.car-i h3 {
+    font-size: 25px;
+     margin-bottom: 1px; 
+}
+.stretch-card>.card {
+    margin-left: 20px;
+}
+
+/*what we offer*/
+.offer h2 {
+     margin-bottom: 5px; 
+    font-size: 40px;
+    color: #002f5d;
+}
+
+.tab button {
+    
+    margin-right: 5px;
+    padding: 0.65em 2.8em .4em;
+    transition: 0.3s;
+     font-size: 14px; 
+}
+.life-bg:after {display: none;
+}
+.life-bg2:after { 
+    display: none;
+}
+.what-img{
+  height: 286px;
+}
+
+.life-bg {
+   
+    padding: 15px 20px;
+    height: 265px;
+    color: #6f6e72;
+    position: relative;
+}
+.life-bg2 {
+   
+    padding: 15px 20px;
+    height: 265px;
+    color: #6f6e72;
+    position: relative;
+}
+.offer h2:after {
+    
+    width: 35px; top: 0px;
+    left: 0;
+    margin: 10px 0;
+}
+
+.mt-15{
+  margin-top: 15px;
+}
+
+/*start your online incurance*/
+
+/*.our-Busines h2:after {
+   
+    width: 35px;
+    top: 0px;
+    left: 0;
+    margin: 10px 0;
+}*/
+
+.mt-0{
+  margin-top: 0;
+}
+.our-Busines {
+    
+    padding-top: 20px;
+}
+.our-Busines h2 { 
+    margin-top: 23px;
+}
+.our-Busines h4{
+    margin-top: 10px;
+}
+/*incurance built*/
+.inc-bg h1 {
+    margin-top: 4rem;
+    color: #fff;
+    font-size: 26px;
+}
+/*.inc-bg h1:after {
+     
+    width: 35px;
+    top: 0px;
+    bottom: 0px;
+    left: 0;
+    margin: 10px 0;
+}*/
+
+.custmer-box h2:after{
+  display: none;
+}
+.inc-bg p{
+      margin-top: 0;
+}
+
+.custmer-box {
+    background-color: #3dabe3;
+    width: 100%;
+    color: #fff;
+    padding: 13px 6px 6px 3px;
+        height: 78px;
+}
+.highlight {
+    color: #fff;
+    padding-bottom: 0px;
+    display: block;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+.custmer-box h2 {
+    
+    font-size: 21px!important;
+    margin-bottom: 0px;
+}
+.custmer-box h5 {
+    font-size: 14px;
+    
+}
+.milestone-details {
+    font-size: 10px;
+    color: #fff;
+    line-height: 15px;
+}
+.stat {
+    margin: 12px auto;
+    width: 100%;
+    float: right;
+}
+
+.inc-bg { 
+    height: 370px; 
+  }
+.inc-bg h1:after {
+     
+    width: 35px; 
+    top: 0px;
+    bottom: 0px;
+    left: 0;
+    margin: 10px 0;
+}
+.pt-m20{
+    padding-top: 20px;
+}
+.pd-o{
+    padding-right: 15px!important;
+}
+/*our top pic*/
+.ourmt-20{
+  margin-top: 20px!imoprtant;
+}
+
+.our-top h2 {
+    margin-top: 0;
+
+}
+
+.categery { 
+     margin-top: 0px; 
+     margin-bottom: 15px; 
+}
+.our-top h3 {
+    padding-left: 15px;
+    font-size: 23px;
+}
+.our-top ul {
+    padding-left: 15px;
+}
+.our-top li {
+    font-size: 14px;
+}
+
+/*submit a claim*/
+.submit-bg h2 { 
+ margin-top: 1rem;
+}
+.h-500 {
+    width: 55%;
+    margin-top: 4.5rem;
+}
+.submit-bg { 
+    height: 900px; 
+}
+
+/*our clint*/
+.col-h1p{
+    padding:10px!important;
+}
+.climt-25{
+  margin-top: 25px!important;
+}
+
+#slider-container {
+    height: 203px;
+    width: 73vw;
+    max-width: 1400px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 0px;
+}
+
+
+.slide h1 { 
+    font-size: 25px!important;
+}
+
+/*footer*/
+
+
+
+/*abouts*/ 
+.about_us{
+    margin-top: 0px;
+}
+.about_us {
+    padding: 0px 0;
+}
+.about_bx img {
+    width: 100%; 
+    top: 0px; 
+}
+.about_us h1.about_heading { 
+    margin: 0px 0 15px 0px;
+    font-size: 30px; 
+}
+.about_bx::before { 
+    height: 121px;
+    position: absolute;
+    bottom: 75px;
+    left: 0;
+}
+.about_bx {
+    width: 100%;
+    float: left;
+    padding: 10px;
+}
+.advisers_info h2::before {
+   display: none;
+}
+
+.advisers_info{
+    margin-bottom: 10px;
+}
+.advisers_r {
+    margin-bottom: 5px;
+}
+.xtrm_outer { 
+    padding: 10px 0;
+}
+.fran-font{
+    font-size: 14px;
+}
+/*contact*/
+.footer-con{
+    margin-top: 50px;
+}
+.mrg-contact{
+    margin-top: 23px;
+}
+.contact_uuus h4 {
+    font-size: 30px; 
+    margin-bottom: 30px;
+}
+.inner_cntnt_inner h2 { ;
+    font-weight: 200;  
+}
+.inner_cntnt_inner .line { 
+    margin-top: 6px;
+}
+.inner_cntnt_inner .line .cntnnt h3 { 
+    font-weight: 400;
+}
+.inner_cntnt_inner .line .cntnnt p {
+    font-size: 14px;
+    font-weight: 300;
+}
+.inner_cntnt_inner { 
+    padding: 10px 25px; 
+}
+.inner_cntnt_inner h2 { 
+    margin-bottom: 2px;
+}
+.support_offices h4 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}/*
+.contact_uuus {
+    padding: 50px 0 15px 0; 
+}*/
+.inner_cntnt_inner p {
+    font-size: 14px;
+    font-weight: 200;
+    padding-bottom: 10px;
+}
+/*.mt-100 {
+    margin-top: 100px;
+    padding: 1px;
+}*/
+.pd-15{
+    padding: 0 15px;
+}
+.padding-1{
+    padding:0px 15px!important;;
+} 
+.mobile-padd{
+    padding: 15px!important;
+}
+.mt-70{
+    margin-top: 20px;
+}
+.mt-10{
+    margin-top: -30px;
+}
+}
+
+
+
+
+@media 
+  (min-device-width: 800px)
+  and (max-device-width:1200px) { 
+     .hei-slider{
+    height: 270px;
+}
+}
+
+@media 
+  (min-device-width: 576px)
+  and (max-device-width:1024px) { 
+    .text-box h2 {
+    font-size: 40px; 
+
+} 
+.pd-o{
+    padding-right: 15px!important;
+}
+ .mt-50{
+    margin-top: 50px;
+ }
+ .pt-m20 {
+    padding-top: 20px;
+}
+
+/*header*/
+.box-over {
+   /* position: absolute;*/
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.carousel-caption { 
+    top: 5rem!important;  
+}
+
+/*
+.box-over { 
+    bottom: 19rem; 
+}*/
+.mr-84 {
+     margin-left: 10px; 
+}
+
+.box-1 { 
+    padding: 14px 20px;
+}
+.box-1 h1 { 
+    font-size: 25px; 
+}
+.box-2 i {
+    font-size: 34px;     margin-bottom: 2px;
+}
+.fb-box {
+    font-size: 16px;
+}
+.box-over li {
+    padding: 0px; 
+}
+/*why chooes*/
+.real h2 {
+    margin-top: 1rem; 
+}
+/*what we offer*/
+
+.tab button { 
+    padding:10px 10px;
+    transition: 0.3s;
+    font-size: 15px;
+    margin-top: 5px;
+}
+/*car inc*/
+.mt-mo15 {
+  margin-top: 0px;
+  }
+  .mobile-padd{
+    padding: 0;
+  }
+
+  /*our clin*/
+
+.col-h1p{
+    padding:10px!important;
+}
+
+.slide h1 { 
+    font-size: 30px!important;
+}
+
+.mt-100 {
+    margin-top: 50px;
+}
+/*inc built*/
+.inc-bg h1 {
+    margin-top: 3rem; 
+    font-size: 30px;
+}
+
+.inc-bg { 
+    height: 450px; 
+}
+.inc-bg h1:after { 
+    top: 18px; 
+    margin: 0px 0;
+}
+.inc-bg p {
+    margin-top: 2rem; 
+}
+/*our top pic*/
+.our-top h2 {
+    font-size: 30px; 
+    margin-top: 0px;
+}
+.categery {
+    background-color: #f3f3f3;
+     margin-top: 0px; 
+     margin-bottom: 0px; 
+}
+.our-top h3 {
+    padding-left: 15px;
+    font-size: 20px;
+}
+.our-top .content .content-overlay { 
+    height: 90%; 
+}
+
+.our-top ul {
+    padding-left: 15px;
+}
+.our-top li { 
+    font-size: 12px; 
+}
+.pb-25 {
+    padding-bottom: 10px;
+}
+
+/*abouts*/
+.about_bx::before { 
+    height: 100px;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+}
+.about_us h1.about_heading { 
+    margin: 20px 0 0 0px;
+    font-size: 30px; 
+}
+.fran-font{
+    font-size: 14px;
+}
+.manoj-font{
+    font-size: 14px;
+}
+/*banner*/
+.carousel-caption { 
+    right: 10%!important;
+    top: 5px; 
+    left: 12%!important; 
+}
+.carousel-caption h2 {
+    font-size: 40px; 
+}
+
+.box-2 {
+    background-color: #002f5dc2;
+    padding: 020px 0 10px;
+}
+
+}
+@media only screen and (max-width: 1024px) {
+     .banner-r { 
+     margin-top: 15rem;
+}
+.carousel-caption h2 {
+    font-size: 40px;
+    margin-top: 4rem;
+}
+}
+
+@media 
+  (min-device-width: 576px)
+  and (max-device-width:775px) {  
+    .inc-bg {
+    height: 590px;
+}
+}
+
+@media only screen and (max-width: 776px) {
+      .custmer-box {
+   display: none;
+}
+
+.h-500 {
+    margin-top: 8rem;
+}
+}
+@media only screen and (min-resolution: 132dpi) and (max-device-width: 1024px) and (orientation : portrait){
+
+/*
+.bg-1 {
+    background-image: url(./img/banner-1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 45vh;
+    position: relative;
+}
+
+.carousel img { 
+    height: 45vh;
+}
+
+.bg-2 {
+    background-image: url(./img/banner-2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 45vh;
+    position: relative;
+}
+
+.bg-3 {
+    background-image: url(./img/banner-3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 45vh;
+    position: relative;
+}
+.box-2 i {
+    font-size: 30px; 
+    margin-bottom: 1px;
+}
+.fb-box {
+    font-size: 16px;
+}
+.slide h1 {
+    font-size: 25px!important;
+}
+.box-over li {
+    padding: 0px; 
+}
+.box-2 {
+    background-color: #002f5dc2;
+    padding: 020px 0 10px;
+}*/
+}
+
+@media only screen and (max-width: 700px) { 
+.carousel-caption h2 { 
+    margin-top: 1rem;
+    font-size: 15px!important;
+}
+}
+
+@media only screen and (min-width: 992px) {  
+
+.whatwe-desktop{
+    display: block;
+}
+}
+ 
+}
+@media only screen and (max-width: 767px) {  
+
+}
+ @media (min-device-width: 768px)and (max-device-width:4000px) {  
+.about-moblie{
+    display: none!important;
+}
+    .advisers_r  {
+        display: none!important;
+    }
+}  
+@media (min-device-width: 200px)and (max-device-width:767px) {  
+        .about-desktop{
+            display: none!important;
+                } 
+        } 
+

@@ -1,0 +1,5110 @@
+/* Minification failed. Returning unminified contents.
+(2080,1): run-time error CSS1035: Expected colon, found '{'
+(4182,1): run-time error CSS1019: Unexpected token, found '193'
+(4535,20): run-time error CSS1062: Expected semicolon or closing curly-brace, found ':'
+ */
+@charset "utf-8";
+/* Common Css */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 14px;
+    background: #fff;
+    height: 100%;
+    position: relative;
+}
+
+html, body {
+    width: 100%;
+}
+
+h1, h2, h3, h4, h6, h7, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+select:focus {
+    outline: none;
+}
+
+.red {
+    color: #F00;
+}
+
+span.msg-error {
+    color: #0d8aba;
+    font-size: 11px;
+    margin: 5px 15px 0px;
+    display: block;
+}
+
+/* Header Form CSS */
+#mtr .topmenu {
+    background: #f2f2f2;
+    display: inline-block;
+    width: 100%;
+    padding: 5px 0;
+}
+
+    #mtr .topmenu ul {
+        margin: 0px;
+        padding: 0px;
+        float: right;
+    }
+
+    #mtr .topmenu li {
+        display: inline-block;
+    }
+
+        #mtr .topmenu li + li {
+            margin-left: 15px;
+        }
+
+        #mtr .topmenu li a {
+            color: #000;
+            font-size: 14px !important;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            padding-right: 0px;
+        }
+
+            #mtr .topmenu li a:hover {
+                background: #f2f2f2;
+                color: #ff646c;
+            }
+
+#mtr .header-form {
+    background: #ecf0f1 none repeat scroll 0 0;
+    position: relative;
+    /*margin-top: 110px;*/
+    margin-top: 74px;
+}
+
+.Register {
+    margin-top: 30px;
+}
+
+#mtr .header-form img {
+    width: 100%;
+    display: block;
+}
+
+#mtr .header-form .desc h1 {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 600;
+    color: #1e55a5;
+}
+
+#mtr .header-form .desc .subheading {
+    font-size: 18px;
+    font-weight: 400;
+    color: #015794;
+    margin: 20px 0;
+}
+
+#mtr .header-form .desc p {
+    font-size: 16px;
+    line-height: 32px;
+    color: #000;
+    padding-right: 55%;
+    margin-bottom: 15px;
+}
+
+#mtr .header-form .desc {
+    position: absolute;
+    top: 180px;
+    left: 100px;
+}
+
+span.textField.newedit {
+    margin-top: 12px;
+}
+
+.form-inline.login {
+    margin-top: 5px;
+}
+
+.login button.btn-primary, #mi-modal button.btn-primary, #ConfirmOTP button.btn-primary, #ConfirmEmail button.btn-primary, .Blog .btn.btn-danger.loadmore {
+    background: #ff646c;
+    border-color: #ff646c;
+    font-weight: 400;
+    font-size: 16px;
+    box-shadow: 0px 3px 0px #be4248;
+    color: #fff !important;
+    margin-top: 6px;
+    padding: 5px 10px;
+    line-height: 22px;
+}
+
+    .login button.btn-primary:hover, #ConfirmOTP button.btn-primary:hover, #ConfirmOTP button.btn-primary:focus .login button.btn-primary:focus, #mi-modal button.btn-primary:hover, #mi-modal button.btn-primary:focus, #ConfirmEmail button.btn-primary:hover {
+        background: #f8525a;
+        border-color: #f8525a;
+        color: #fff !important;
+        outline: none;
+    }
+
+.login .forgot-text {
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.login .form-control, #ConfirmOTP .form-control {
+    box-shadow: none;
+    height: 60px;
+    font-size: 12px;
+    border-color: #e2e2e2;
+    color: #333;
+    padding-top: 30px;
+}
+
+.login label, #ConfirmOTP label {
+    font-weight: 400;
+}
+
+.login button.btn-primary.marg0 {
+    margin-top: 0px;
+}
+
+.login .custom-label, #ConfirmOTP .custom-label {
+    font-weight: 400;
+    position: absolute;
+    left: 14px;
+    top: 8px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.login .form-group, #ConfirmOTP .form-group {
+    position: relative;
+}
+
+.login .modal-content, .PremiumBreakup .modal-content, #mi-modal .modal-content, #ConfirmOTP .modal-content, #ConfirmEmail .modal-content, #ErrorMessage .modal-content {
+    border-radius: 0px;
+    border: 0px;
+}
+
+.login .modal-header, .PremiumBreakup .modal-header, #mi-modal .modal-header, #ConfirmOTP .modal-header, #ConfirmEmail .modal-header, #ErrorMessage .modal-header {
+    background: #f8525a;
+}
+
+.login .modal-title, .PremiumBreakup .modal-title, #mi-modal .modal-title, #ConfirmOTP .modal-title, #ConfirmEmail .modal-title, #ErrorMessage .modal-title {
+    color: #fff;
+}
+
+.login .close, .PremiumBreakup .close, .modal-title .close, #ConfirmOTP .close, #ConfirmEmail .close, #ErrorMessage .close {
+    font-size: 36px;
+    line-height: 24px;
+    color: #fff;
+    text-shadow: none;
+    opacity: 1;
+}
+
+textarea.form-control {
+    height: auto !important;
+}
+
+.textWrap {
+    padding: 0px;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    white-space: normal;
+    overflow: hidden;
+    width: 475px;
+}
+
+#mi-modal button.btn-default {
+    margin-top: 5px;
+}
+
+.PremiumBreakup button.btn-primary, #mi-modal button.btn-default {
+    background: #f3f3f3;
+    border-color: #ddd;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 10px;
+    box-shadow: 0px 3px 0px #be4248;
+    color: #000 !important;
+    padding: 5px 10px;
+    line-height: 22px;
+}
+
+    .PremiumBreakup button.btn-primary:hover, #mi-modal button.btn-default:hover, .login button.btn-primary:focus, #mi-modal button.btn-default:focus {
+        background: #ddd;
+        border-color: #ddd;
+        color: #000 !important;
+        outline: none;
+    }
+
+.PremiumBreakup .ICLogo {
+    border: 1px solid #fff;
+    background: #fff;
+    height: 60px;
+    line-height: 56px;
+    text-align: center;
+    width: 132px;
+    margin-left: 15px;
+}
+
+.PremiumBreakup .Pdetail {
+    margin-top: 10px;
+}
+
+p.rcExpAlert {
+    text-transform: capitalize !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 25px !important;
+}
+
+#mtr .irda {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
+    #mtr .irda span {
+        padding-top: 5px;
+        color: #666;
+        display: inline-block;
+    }
+
+#PropPremiumBreakup table tr td, #PremiumBreakup table tr td {
+    font-size: 12px;
+    padding: 4px;
+}
+
+    #PropPremiumBreakup table tr td strong, #PremiumBreakup table tr td strong {
+        font-weight: 600;
+    }
+
+/* Navigation CSS*/
+.custom-nav {
+    overflow: auto;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+.homePagelanding .custom-nav .navbar-brand {
+    height: 72px;
+    padding: 15px 15px;
+}
+
+nav.navbar.navbar-default.custom-nav {
+    border-color: #f2f2f2;
+    background: #fff;
+    margin: 0px 0 0;
+    padding: 12px 0;
+}
+
+.navbar-default.custom-nav .nav.navbar-nav > .active > a, .navbar-default.custom-nav .nav.navbar-nav > .active > a:focus, .navbar-default.custom-nav .nav.navbar-nav > .active > a:hover {
+    color: #ff646c;
+    text-decoration: underline;
+    background: #fff;
+}
+
+.navbar-default.custom-nav .navbar-nav > li > a {
+    color: #000;
+    font-size: 16px;
+}
+
+.navbar-default.custom-nav .navbar-nav > li > .dropdown > button {
+    background: none;
+    border: 1px solid #d6d6d6;
+    padding: 6px 18px 6px 2px !important;
+}
+
+    .navbar-default.custom-nav .navbar-nav > li > .dropdown > button > a {
+        color: #000;
+        font-size: 16px;
+        padding: 0 15px;
+    }
+
+.navbar-default.custom-nav .navbar-nav > li > .dropdown.open .dropdown-menu {
+    background: #ededed;
+}
+
+.navbar-default.custom-nav .navbar-nav > li > .dropdown.open {
+    position: relative;
+    z-index: 9999;
+    overflow: visible;
+}
+
+.navbar-default.custom-nav .navbar-nav > li > .dropdown > button {
+    background: none;
+    border: 1px solid #d6d6d6;
+    padding: 6px 2px;
+    margin: 5px 0;
+}
+
+#mtr .navbar {
+    border-radius: 0px;
+    overflow: visible !important;
+}
+
+.navbar-default.custom-nav .navbar-nav > li > .dropdown.open .dropdown-menu {
+    background: #ffffff;
+    z-index: 9999 !important;
+    overflow: visible;
+    position: absolute;
+    top: 40px;
+}
+
+.navbar-default.custom-nav .navbar-nav > li > .dropdown > button > a,
+.navbar-default.custom-nav .navbar-nav > li > .dropdown > button > a:hover {
+    color: #000 !important;
+    font-size: 16px;
+    padding: 0px 25px 0 8px;
+    text-decoration: none;
+}
+
+
+.navbar-default.custom-nav .navbar-nav > li > .dropdown > button {
+    position: relative;
+}
+
+    .navbar-default.custom-nav .navbar-nav > li > .dropdown > button > i {
+        position: absolute;
+        right: 7px;
+        top: 11px;
+    }
+/*.navbar-default.custom-nav .navbar-nav > li > a {
+    color: #000;
+    font-size: 16px;
+    padding-right: 5px;
+    padding-left: 12px;
+}*/
+
+.navbar-default.custom-nav .navbar-nav > li > .dropdown.open .dropdown-menu a {
+    color: #000;
+    font-size: 14px;
+    padding: 2px 15px;
+    text-decoration: none;
+    width: 100%;
+    float: left;
+}
+
+.navbar-default.custom-nav .navbar-nav > li > a:hover,
+.navbar-default.custom-nav .navbar-nav > li > .dropdown > button > a:hover {
+    color: #ff646c;
+}
+
+.navbar-collapse.in {
+    overflow-y: auto;
+    max-height: 270px;
+}
+
+a#btnResendOTP {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#mtr .Register .signup .gender .control-label {
+    text-align: left;
+    padding-top: 7px !important;
+}
+
+#mtr .Register .custom_radio {
+    margin-right: 10px;
+}
+
+.Millennials_001 .LandingMenu, .Millennials_001 .navbar-collapse.collapse {
+    width: 100%;
+    display: flex !important;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0 15px 0;
+}
+
+.dsktpp_hide {
+    display: none;
+}
+
+
+.Millennials_001 .get_quote_outer {
+    display: none;
+}
+
+.homePagelanding .custom-nav .navbar-brand {
+    height: 72px;
+    padding: 15px 40px 15px 40px;
+}
+
+.LandingMenu .MainNav ul.nav.navbar-nav {
+    margin-right: 0 !important;
+}
+
+.testmon_mob {
+    display: none;
+}
+
+.Millennials_001 .testimonials .carousel .carousel-indicators {
+    bottom: -100px;
+}
+
+.Millennials_001 .footer_lower .col {
+    width: 20%;
+    text-align: center;
+}
+
+.about_mob {
+    display: none;
+}
+
+.Millennials_001 .footer_lower_mobile {
+    display: none;
+}
+
+.Millennials_001 .agent_box a.btn {
+    background: #000;
+    border-color: #000;
+    color: #fff !important;
+    padding: 25px 27px;
+    box-shadow: 0px 0px 0px;
+    font-family: 'Work Sans', sans-serif !important;
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 400;
+    border-radius: 15px;
+}
+
+
+.Millennials_001 .advisers_pic img {
+    width: 100%;
+}
+
+.Millennials_001 .advisers_r {
+    margin-bottom: 85px;
+}
+
+.Millennials_001 .advisers_info h2 {
+    margin: 30px 0 12px 0;
+    font-size: 34px;
+    color: #333333;
+}
+
+.Millennials_001 .advisers_info h4 {
+    font-size: 20px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+.Millennials_001 .advisers_info p {
+    color: #000000;
+    line-height: 32px;
+    font-size: 18px;
+}
+
+.about_us_page .about_us {
+    padding-top: 0 !important;
+}
+
+
+/*------------------------*/
+/*------------------------*/
+
+.paymeNt_form {
+    border-top: 30px solid #f0f0f0;
+    border-bottom: 30px solid #f0f0f0;
+    padding: 55px 0;
+}
+
+    .paymeNt_form form {
+        width: 100%;
+        padding: 0 50px;
+    }
+
+        .paymeNt_form form select.form-control {
+            color: #888 !important;
+            -moz-appearance: none;
+            -moz-user-select: none;
+            -webkit-appearance: none;
+            -webkit-user-select: none;
+            background: #fff url(../images/SelectImg.png) no-repeat scroll 98% 55%;
+            box-shadow: none;
+            height: 60px !important;
+            font-size: 12px;
+            border-color: #e2e2e2;
+            color: #333 !important;
+            padding-top: 30px !important;
+            padding-left: 15px !important;
+        }
+
+        .paymeNt_form form .form-group {
+            margin-bottom: 15px;
+            position: relative;
+        }
+
+            .paymeNt_form form .form-group label {
+                position: absolute;
+                left: 15px;
+                top: 10px;
+                font-size: 12px;
+                font-weight: 400;
+                font-family: 'Montserrat', sans-serif;
+                color: #000;
+            }
+
+        .paymeNt_form form input {
+            box-shadow: none;
+            height: 60px;
+            font-size: 12px;
+            border-color: #e2e2e2;
+            color: #333;
+            padding-top: 30px;
+            padding-left: 15px;
+        }
+
+        .paymeNt_form form .btn {
+            background: #ff646c;
+            border-color: #ff646c;
+            font-weight: 400;
+            font-size: 16px;
+            box-shadow: 0px 3px 0px #be4248;
+            color: #fff !important;
+            margin-top: 6px;
+            padding: 8px 16px;
+            line-height: 22px;
+        }
+
+            .paymeNt_form form .btn:hover,
+            .paymeNt_form form .btn:focus {
+                background: #f8525a;
+                border-color: #f8525a;
+                color: #fff !important;
+                outline: none;
+            }
+
+    .paymeNt_form p {
+        width: 100%;
+        float: left;
+        color: #686868;
+        line-height: 20px;
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .paymeNt_form .btn_r {
+        width: 100%;
+        float: left;
+        text-align: right;
+    }
+
+    .paymeNt_form .error {
+        color: #f00;
+        border-color: #ff646c !important;
+        padding-top: 5px;
+        font-size: 12px;
+    }
+
+    .paymeNt_form .red {
+        color: #F00;
+    }
+
+/*------------------------*/
+/*------------------------*/
+
+
+
+
+
+/*------------------------*/
+/*------------------------*/
+
+.Millennials_001 .covid_banner .carousel-caption {
+    text-align: left;
+    bottom: 12vw;
+}
+
+    .Millennials_001 .covid_banner .carousel-caption h5 {
+        text-transform: uppercase;
+        font-size: 32px;
+    }
+
+    .Millennials_001 .covid_banner .carousel-caption .btn {
+        background: #05a59d;
+        color: #fff !important;
+        border: 1px solid #05a59d;
+        padding: 6px 20px;
+        margin: 12px 0 0 0;
+        font-size: 16px;
+    }
+
+.Millennials_001 .Millennials_001 .covid_banner ol.carousel-indicators {
+    bottom: 0;
+}
+
+.Millennials_001 .covid_banner .carousel-control-prev,
+.Millennials_001 .covid_banner .carousel-control-next {
+    display: none;
+}
+
+.Millennials_001 .covid_banner .carousel-caption {
+    text-align: left;
+    bottom: 12vw;
+    width: 50% !important;
+}
+
+.Millennials_001 .covid_mid1 {
+    padding: 55px 0;
+}
+
+.Millennials_001 .covid_mid1_row p {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 0 0 35px 0;
+}
+
+.Millennials_001 .covid_mid1_row .covid_mid1_bx {
+    box-shadow: 4px 1px 8px 2px #cccccc75;
+    width: 100%;
+    float: left;
+    padding: 25px;
+    border-radius: 6px;
+    background: #fbfbfb;
+    border-top: 5px solid #05a59d;
+    min-height: 250px;
+}
+
+.Millennials_001 .twowhlr_mid3 .covid_mid1_bx {
+    padding: 35px;
+    min-height: 200px;
+}
+
+.Millennials_001 .covid_mid1_bx h3 {
+    font-size: 18px;
+    position: relative;
+}
+
+.Millennials_001 .covid_mid1_bx p {
+    margin: 0;
+    color: #686868;
+    line-height: 20px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.Millennials_001 .feedback_form {
+    border-top: 30px solid #f0f0f0;
+    border-bottom: 30px solid #f0f0f0;
+    padding: 55px 0;
+}
+
+    .Millennials_001 .feedback_form form .form-group.check_checkform.abc {
+        width: 100%;
+    }
+
+    .Millennials_001 .feedback_form form .form-group {
+        width: 50%;
+        float: left;
+        padding: 0 10px;
+    }
+
+        .Millennials_001 .feedback_form form .form-group.txt_areaa {
+            width: 100%;
+        }
+
+        .Millennials_001 .feedback_form form .form-group label {
+            font-size: 15px;
+            font-weight: 600;
+            margin: 5px 0 5px 0;
+        }
+
+    .Millennials_001 .feedback_form form .btn {
+        background: #05a59d;
+        color: #fff !important;
+        border: 1px solid #05a59d;
+        padding: 6px 20px;
+        font-size: 16px;
+        margin: 5px 0 0 10px;
+    }
+
+.Millennials_001 .Insurance_plan_img_bx {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.Millennials_001 .Insurance_plan_bx {
+    margin-bottom: 15px;
+    float: left;
+}
+
+    .Millennials_001 .Insurance_plan_bx h3 {
+        font-size: 20px;
+        font-weight: 600;
+        margin: 12px 0 25px 0;
+        float: left;
+        width: 100%;
+        position: relative;
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+        .Millennials_001 .Insurance_plan_bx h3:after {
+            content: "";
+            width: 84px;
+            position: absolute;
+            margin: 0 auto;
+            height: 3px;
+            border-radius: 1px;
+            background: #02d8cc;
+            left: 0;
+            right: 0;
+            bottom: -12px;
+            text-align: center;
+        }
+
+.Millennials_001 .Insurance_plans {
+    padding: 55px 0;
+    float: left;
+    border-bottom: 30px solid #f0f0f0;
+}
+
+.Millennials_001 .Insurance_plans_heading h1 {
+    text-align: center;
+    font-size: 34px;
+    margin: 0 0 60px 0;
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+    .Millennials_001 .Insurance_plans_heading h1:after {
+        content: "";
+        width: 100px;
+        position: absolute;
+        margin: 0 auto;
+        height: 4px;
+        border-radius: 1px;
+        background: #02d8cc;
+        left: 0;
+        right: 0;
+        bottom: -20px;
+    }
+
+.Millennials_001 .Insurance_plan_bx img {
+    display: block;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+
+.Millennials_001 .Insurance_plan_bx .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #05a59d;
+}
+
+.Millennials_001 .Insurance_plan_bx:hover .overlay {
+    opacity: 1;
+}
+
+.Millennials_001 .Insurance_plan_bx .text {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+}
+
+
+.Millennials_001 .main_content {
+    border-bottom: 30px solid #f0f0f0;
+    padding: 55px 15px;
+}
+
+.Millennials_001 .main_content_row p {
+    color: #686868;
+    line-height: 20px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+.Millennials_001 .faq {
+    border-bottom: 30px solid #f0f0f0;
+    padding: 55px 0;
+}
+
+    .Millennials_001 .faq .faq-list {
+        padding: 0;
+        list-style: none;
+        width: 100%;
+        float: left;
+    }
+
+        .Millennials_001 .faq .faq-list li {
+            background-color: #f0f0f0;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            padding: 12px 40px;
+        }
+
+        .Millennials_001 .faq .faq-list a {
+            display: block;
+            position: relative;
+            font-size: 16px;
+            font-weight: 600;
+            color: #333333;
+            text-decoration: none;
+        }
+
+        .Millennials_001 .faq .faq-list p a {
+            display: inline-block;
+            text-decoration: underline;
+            color: #02d8cc;
+            font-weight: 500;
+            cursor: pointer;
+        }
+
+        .Millennials_001 .faq .faq-list i {
+            font-size: 16px;
+            position: absolute;
+            right: -25px;
+            top: 6px;
+            transition: 1s;
+            color: #05a59d;
+        }
+
+.Millennials_001 .faq-title {
+    width: 100%;
+    float: left;
+}
+
+    .Millennials_001 .faq-title h2 {
+        text-align: center;
+        font-size: 34px;
+        margin: 0 0 60px 0;
+        float: left;
+        width: 100%;
+        position: relative;
+        color: #212529;
+    }
+
+        .Millennials_001 .faq-title h2:after {
+            content: "";
+            width: 100px;
+            position: absolute;
+            margin: 0 auto;
+            height: 4px;
+            border-radius: 1px;
+            background: #02d8cc;
+            left: 0;
+            right: 0;
+            bottom: -20px;
+        }
+
+.Millennials_001 .faq .faq-list p {
+    padding-top: 5px;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+
+.Millennials_001 .twowhlr_mid6_bx ul li .txtxt h5 {
+    font-size: 19px;
+    margin-bottom: 4px;
+}
+
+.Millennials_001 .faq .faq-list ul {
+    list-style-type: disc;
+    padding: 0 0 0 25px;
+}
+
+    .Millennials_001 .faq .faq-list ul li {
+        padding: 0;
+        margin: 5px 0 0 0;
+    }
+
+
+.Millennials_001 .collapsed i.fas.fa-arrow-up {
+}
+
+.Millennials_001 .collapsed i.fa.fa-arrow-circle-up {
+    transform: rotate(180deg);
+}
+
+.Millennials_001 .twoweeler_banner .carousel-caption {
+    text-align: left;
+    bottom: 12vw;
+    width: 38%;
+}
+
+    .Millennials_001 .twoweeler_banner .carousel-caption h5 {
+        text-transform: uppercase;
+        font-size: 32px;
+        color: #0d8aba;
+        text-shadow: none;
+    }
+
+.Millennials_001 .twowhlr_mid1 {
+    padding: 55px 0;
+}
+
+    .Millennials_001 .twowhlr_mid1 p {
+        width: 100%;
+        float: left;
+        text-align: center;
+        margin: 0 0;
+    }
+
+    .Millennials_001 .twowhlr_mid1 .btn_R {
+        width: 100%;
+        text-align: center;
+        margin: 20px 0 0 0;
+    }
+
+        .Millennials_001 .twowhlr_mid1 .btn_R button.btn {
+            background: #05a59d;
+            color: #fff !important;
+            border: 1px solid #05a59d;
+            padding: 6px 20px;
+            font-size: 16px;
+            margin: 5px 0 0 10px;
+        }
+
+.Millennials_001 .twowhlr_mid2 {
+    padding: 55px 0;
+    border-bottom: 30px solid #f0f0f0;
+}
+
+    .Millennials_001 .twowhlr_mid2 p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .Millennials_001 .twowhlr_mid2 .home_issuranceeee p {
+        margin: 0 0 15px 0;
+    }
+
+    .Millennials_001 .twowhlr_mid2 .twowhlr_mid2_row {
+        margin: 0;
+        padding: 0 10px;
+    }
+
+.Millennials_001 .whelr_img_bx {
+    padding: 35px;
+}
+
+.Millennials_001 .twowhlr_mid3 {
+    border-bottom: 30px solid #f0f0f0;
+}
+
+.Millennials_001 .twowhlr_mid4 .Insurance_plans_heading h3 {
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+
+.Millennials_001 .twowhlr_mid4 .Insurance_plans_heading p {
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin: 0;
+}
+
+.Millennials_001 .twowhlr_mid4 p {
+    padding: 0 15px;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.Millennials_001 .twowhlr_mid5 {
+    border-bottom: 30px solid #f0f0f0;
+}
+
+    .Millennials_001 .twowhlr_mid5 .covid_mid1_bx {
+        border: 1px solid #eaeaea;
+        min-height: 175px;
+        margin: 15px 0;
+    }
+
+.Millennials_001 .twowhlr_mid6 {
+    border-bottom: 30px solid #f0f0f0;
+}
+
+.Millennials_001 .twowhlr_mid6_bx img {
+    width: 100%
+}
+
+.Millennials_001 .twowhlr_mid6_bx ul li p {
+    margin: 0 0 10px 0;
+    text-align: left;
+}
+
+.Millennials_001 .twowhlr_mid6_bx ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+    .Millennials_001 .twowhlr_mid6_bx ul li {
+        display: flex;
+        align-items: baseline;
+    }
+
+.Millennials_001 .covid_nin ul li {
+    justify-content: unset;
+    padding: 0 0 0 25px;
+}
+
+.Millennials_001 .twowhlr_mid6_bx ul li i {
+    color: #05a59d;
+    margin: 5px 5px 0 0;
+}
+
+.Millennials_001 .HomeInsurancePlans p {
+    margin: 0;
+    width: auto;
+}
+
+.Millennials_001 .Insurance_plans_row {
+    margin: 15px 0 0 0;
+    width: 100%;
+    float: left;
+}
+
+.Millennials_001 .one_solution p {
+    font-size: 22px;
+}
+
+.Millennials_001 .HomeInsurancePlans ul {
+    width: 100%;
+}
+
+    .Millennials_001 .HomeInsurancePlans ul li {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 5px 0;
+        width: 100%;
+    }
+
+        .Millennials_001 .HomeInsurancePlans ul li .icon i {
+            color: #05a59d;
+            margin: 5px 2px 0 0;
+        }
+
+.Millennials_001 .awards {
+    border-bottom: 30px solid #f0f0f0;
+    border-top: 30px solid #f0f0f0;
+    padding: 60px 0;
+}
+
+.Millennials_001 .awards_box h1 {
+    text-align: center;
+    font-size: 34px;
+    margin: 0 0 40px 0;
+}
+
+.Millennials_001 .awards_box ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .Millennials_001 .awards_box ul li {
+        padding: 10px;
+    }
+
+        .Millennials_001 .awards_box ul li img {
+            width: 100%;
+            border: 5px solid #f0f0f0;
+            border-radius: 0px;
+        }
+
+/*------------------------*/
+/*------------------------*/
+
+.twoweeler_banner .carousel-caption {
+    display: flex !important;
+    align-items: baseline;
+}
+
+    .twoweeler_banner .carousel-caption .icon {
+        font-size: 32px;
+        color: #0d8aba;
+        padding: 0 8px 0 0;
+    }
+
+ul.home_check_list {
+    width: 100%;
+    float: left;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    margin: 15px 0 0 0;
+}
+
+    ul.home_check_list li {
+        display: inline-flex;
+        width: 100%;
+        float: left;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+        ul.home_check_list li .icon {
+            width: auto;
+            float: left;
+            color: #05a59d;
+        }
+
+        ul.home_check_list li p {
+            width: auto !important;
+            float: left !important;
+            padding: 0 0 0 7px;
+        }
+
+.HomeInsurancePlans ul li {
+    align-items: baseline;
+}
+
+.covid_mid1_bx h3 {
+    margin: 0 0 15px 0;
+}
+
+.twowhlr_mid1_row > p {
+    font-size: 19px;
+    line-height: 25px;
+    padding: 0 20px;
+}
+
+.Millennials_001 .coviddd_insurance .Insurance_plan_bx {
+    min-height: 290px;
+}
+
+.navbar-nav > li > a {
+    padding-right: 5px;
+}
+
+.LandingMenu .MainNav {
+    width: 33.33%;
+    float: left;
+    margin: 0;
+}
+
+.LandingMenu .navbar-header {
+    width: 33.33%;
+    float: left;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.LandingMenu .navbar-nav.login {
+    width: 33.33%;
+    float: left !important;
+    margin: 0 !important;
+    display: flex !important;
+    justify-content: flex-end;
+}
+
+
+@media (max-width: 767px) {
+    .Millennials_001 .footer_lower {
+        display: none;
+    }
+
+    .Millennials_001 .footer_lower_mobile {
+        display: block;
+    }
+
+    .footer_lower_mobile .footer_lower_bx {
+        margin: 0 0 10px 0;
+    }
+
+        .footer_lower_mobile .footer_lower_bx .btn {
+            background: none;
+            width: 100%;
+            text-align: center;
+            position: relative;
+            border: 0;
+            border-bottom: 1px dashed #b3b3b3;
+            padding: 10px 0;
+            margin: 0;
+            outline: none;
+            box-shadow: none;
+        }
+
+            .footer_lower_mobile .footer_lower_bx .btn:before {
+                content: '';
+                width: 0;
+                height: 0;
+                border-left: 6px solid transparent;
+                border-right: 6px solid transparent;
+                border-top: 6px solid #a1a1a1;
+                position: absolute;
+                right: 10px;
+                top: 15px;
+            }
+
+        .footer_lower_mobile .footer_lower_bx .collapse.in {
+            margin: 10px 0;
+        }
+
+        .footer_lower_mobile .footer_lower_bx .btn:active:focus,
+        .footer_lower_mobile .footer_lower_bx .btn:active:hover {
+            border: 0 !important;
+            border-bottom: 1px dashed #b3b3b3 !important;
+            outline: none;
+            box-shadow: none;
+        }
+
+        .footer_lower_mobile .footer_lower_bx ul {
+            text-align: left;
+        }
+
+    .Millennials_001 .advisers_r {
+        margin-bottom: 35px;
+    }
+
+    .Millennials_001 .advisers_info h2 {
+        font-size: 30px;
+    }
+
+    .Millennials_001 .advisers_info h4 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .Millennials_001 .advisers_info p {
+        line-height: 21px;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .paymeNt_form form .form-group {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    .paymeNt_form p {
+        padding: 0;
+    }
+
+    .paymeNt_form form .btn {
+        margin: 5px 10px 0 0;
+    }
+}
+
+
+
+
+@media (min-width: 768px) {
+    #mtr .navbar-nav {
+        margin-top: 16px;
+        margin-right: 10px;
+    }
+
+    #mtr .navbar {
+        border-radius: 0px;
+    }
+
+    #mtr .custom-nav.affix-top {
+        position: static;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .custom-nav.affix {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        z-index: 10;
+    }
+
+    .login .modal-dialog {
+        width: 350px;
+        margin: 30px auto;
+    }
+
+    .PremiumBreakup .modal-dialog {
+        width: 700px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .custom-nav .navbar-brand {
+        padding: 15px 0 15px 15px;
+    }
+}
+
+
+
+
+@media (max-width: 1250px) {
+    .custom-nav .navbar-brand {
+        padding: 15px 0 15px 15px;
+    }
+}
+
+
+
+
+
+@media (max-width: 1199px) {
+    .navbar-default.custom-nav .navbar-nav > li > a,
+    .navbar-default.custom-nav .navbar-nav > li > .dropdown > button > a {
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+
+    .custom-nav .navbar-brand {
+        padding: 15px 25px;
+    }
+
+        .custom-nav .navbar-brand > img {
+            width: 155px;
+            padding: 10px 0;
+        }
+
+    .LandingMenu button.btn.btn-primary, .LandingMenu a.btn.btn-primary {
+        padding: 5px 20px;
+    }
+
+    .about_dsktp {
+        display: none;
+    }
+
+    .about_mob {
+        display: block;
+    }
+
+        .about_mob .item.carousel-item img {
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .about_mob .carousel-indicators {
+            bottom: -50px;
+        }
+
+            .about_mob .carousel-indicators li {
+                background-color: rgba(186, 186, 186, 0.96);
+                border: 1px solid #999;
+            }
+
+            .about_mob .carousel-indicators .active {
+                background-color: #00cecc;
+            }
+
+    .Millennials_001 .know_more {
+        margin: 60px 0 0 0 !important;
+    }
+}
+
+
+@media (max-width: 991px) {
+    #Homepage .mobb_hide {
+        display: none;
+    }
+
+    .Millennials_001 .get_quote_outer {
+        display: block;
+    }
+
+        .Millennials_001 .get_quote_outer a.btn {
+            background: #05a59d;
+            color: #fff !important;
+            border: 1px solid #05a59d;
+            padding: 4px 12px;
+            font-size: 14px;
+        }
+
+
+    .Millennials_001 .Insurance_outer {
+        position: relative;
+    }
+
+    .Millennials_001 .get_quote_outer {
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 10%;
+        background: #00000040;
+    }
+
+    .dsktpp_hide {
+        display: block;
+    }
+
+    .Millennials_001 .Insurance_content {
+        display: none;
+    }
+
+    .LandingMenu,
+    .navbar-collapse.collapse {
+        width: auto;
+        display: block !important;
+    }
+
+    .LandingMenu, .navbar-collapse.collapse {
+        text-align: center;
+        padding: 0;
+    }
+
+    #mtr .navbar-nav > li {
+        border-bottom: 1px solid #ebebeb;
+        padding: 10px 0;
+    }
+
+    .navbar-collapse.in {
+        overflow-y: auto;
+        max-height: unset;
+    }
+
+    .LandingMenu button.btn.btn-primary, .LandingMenu a.btn.btn-primary {
+        width: 300px;
+        margin: 0 auto !important;
+    }
+
+    #mtr .navbar-nav {
+        margin: 0;
+    }
+
+    .testmon_dsktp {
+        display: none;
+    }
+
+    .testmon_mob {
+        display: block;
+    }
+
+    .Millennials_001 .testimonials .carousel {
+        padding: 0 15px !important;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .navbar-collapse.in {
+        display: block !important;
+    }
+
+    #mtr .navbar-collapse.in .mobhide {
+        display: block;
+    }
+
+    .Millennials_001 .footer {
+        text-align: center;
+    }
+
+    .Millennials_001 .footer_upper {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+        .Millennials_001 .footer_upper h4 {
+            text-align: center;
+        }
+
+    .Millennials_001 .get_quote_outer {
+        height: 15%;
+    }
+}
+
+
+.Millennials_001 .copyright1 p {
+    padding: 0 2rem;
+}
+
+.logMob, .MobNav {
+    display: none;
+}
+
+/* Benefits CSS */
+#mtr .benefits {
+    display: block;
+    background: #fff;
+    padding: 126px 0;
+    text-align: center;
+    border-bottom: 1px solid #dbdfe0;
+}
+
+    #mtr .benefits h2 {
+        font-size: 36px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #1e55a5;
+        margin-bottom: 15px;
+    }
+
+    #mtr .benefits .subheading {
+        font-size: 16px;
+        font-weight: 400;
+        color: #666666;
+        margin-bottom: 30px;
+    }
+
+    #mtr .benefits h3 {
+        font-size: 18px;
+        font-weight: 400;
+        color: #000;
+        padding: 15px 0 0;
+        margin-bottom: 0px;
+    }
+
+    #mtr .benefits .icon {
+        border-radius: 50%;
+        height: 155px;
+        line-height: 155px;
+        vertical-align: middle;
+        width: 155px;
+        margin: 10px auto;
+        background: #ff646c;
+    }
+
+    #mtr .benefits .benefit-col {
+        margin: 80px 0 0;
+    }
+
+
+/* About Us CSS */
+#mtr .AboutUs {
+    background: #1e55a5 none repeat scroll 0 0;
+    position: relative;
+    display: block;
+    padding: 126px 0;
+}
+    /*#mtr .AboutUs img{ width:100%;}*/
+    #mtr .AboutUs .desc h1 {
+        font-size: 48px;
+        line-height: 60px;
+        font-weight: 600;
+        color: #fff;
+        margin-bottom: 30px;
+    }
+
+    #mtr .AboutUs .ProfileName {
+        font-size: 24px;
+        line-height: 40px;
+        font-weight: 600;
+        color: #fff;
+        margin-bottom: 5px;
+    }
+
+    #mtr .AboutUs .Designation {
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+    }
+
+    #mtr .AboutUs .desc p {
+        font-size: 16px;
+        line-height: 32px;
+        color: #fff;
+        margin-bottom: 15px;
+        text-align: justify;
+    }
+
+.column {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+
+#mtr .AboutUs .desc {
+    display: block;
+}
+
+#mtr .AboutUs img.thumb {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 14px #333;
+}
+
+#mtr .AboutUs hr {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border-top: 1px solid #3473d0;
+}
+
+
+/* Car */
+#mtr .car {
+    display: block;
+    background: #fff;
+    padding: 126px 0;
+    text-align: center;
+    border-bottom: 1px solid #dbdfe0;
+}
+
+    #mtr .car h2 {
+        font-size: 36px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #1e55a5;
+        margin-bottom: 15px;
+    }
+
+    #mtr .car .subheading {
+        font-size: 16px;
+        font-weight: 400;
+        color: #666666;
+        margin-bottom: 30px;
+    }
+
+    #mtr .car .icon {
+        border-radius: 50%;
+        height: 155px;
+        line-height: 155px;
+        vertical-align: middle;
+        width: 155px;
+        margin: 10px auto;
+        background: #ff646c;
+    }
+
+    #mtr .car p {
+        font-size: 18px;
+        color: #000;
+        padding: 0 20%;
+        line-height: 36px;
+        margin-bottom: 15px;
+    }
+
+#mtr .listing {
+    text-align: left;
+    margin: 0%;
+    padding: 0px 20%;
+}
+
+    #mtr .listing span {
+        font-size: 18px;
+        display: inline-block;
+        width: 100%;
+        font-weight: 600;
+        color: #000;
+        margin-bottom: 30px;
+    }
+
+    #mtr .listing li {
+        font-size: 16px;
+        color: #000;
+        padding: 0%;
+        line-height: 24px;
+        margin-bottom: 15px;
+        list-style: inside;
+    }
+
+
+/* Sign Up */
+#mtr .signup {
+    display: block;
+    background: #fff;
+    padding: 30px 0px 30px 60px;
+}
+
+#mtr .signup {
+    display: block;
+    background: #fff;
+    border-bottom: 1px solid #dbdfe0;
+}
+
+    #mtr .signup h1 {
+        font-size: 24px;
+        font-weight: 600;
+        color: #000;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+
+    #mtr .signup .subheading {
+        font-size: 16px;
+        font-weight: 500;
+        color: #000;
+        margin: 0 0 15px 0;
+        background: #efefef;
+        padding: 15px;
+    }
+
+    #mtr .signup .icon {
+        border-radius: 50%;
+        height: 155px;
+        line-height: 155px;
+        vertical-align: middle;
+        width: 155px;
+        margin: 10px auto;
+        background: #ff646c;
+    }
+
+    #mtr .signup p {
+        font-size: 18px;
+        color: #000;
+        padding: 0 20%;
+        line-height: 36px;
+        margin-bottom: 15px;
+    }
+
+    #mtr .signup button.btn-primary, #mtr .signup input.btn-primary, .btn.btn-primary.founders {
+        background: #ff646c;
+        border-color: #ff646c;
+        font-weight: 400;
+        font-size: 16px;
+        box-shadow: 0px 3px 0px #be4248;
+        color: #fff !important;
+        margin-top: 6px;
+        padding: 8px 16px;
+        line-height: 22px;
+    }
+
+        #mtr .signup button.btn-primary.btn-primary:hover, .login button.btn-primary:focus, #mtr .signup input.btn-primary.btn-primary:hover, .btn.btn-primary.founders:hover, .btn.btn-primary.founders:focus {
+            background: #f8525a;
+            border-color: #f8525a;
+            color: #fff !important;
+            outline: none;
+        }
+
+    #mtr .signup .form-control {
+        box-shadow: none;
+        height: 60px;
+        font-size: 12px;
+        border-color: #e2e2e2;
+        color: #333;
+        padding-top: 30px;
+    }
+
+    #mtr .signup .control-label {
+        font-weight: 400;
+    }
+
+    #mtr .signup input[type=file] {
+        padding-top: 30px;
+        width: 100%;
+        padding-bottom: 8px;
+    }
+
+    #mtr .signup label {
+        font-weight: 400;
+    }
+
+.custom-radio label.radiolbl {
+    margin-right: 10px;
+}
+
+#mtr .signup .gender .control-label {
+    text-align: left;
+    padding-top: 0px !important;
+}
+
+#mtr .signup .gender {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+input[type=file] {
+    color: #666;
+    opacity: 1;
+}
+
+#mtr .signup .Customfile {
+    position: relative;
+}
+
+    #mtr .signup .Customfile .fileval {
+        text-indent: 0px;
+        pointer-events: none;
+    }
+
+.Customfile .fileclear {
+    display: none;
+    position: absolute;
+    top: 36%;
+    right: 30px;
+}
+
+.Customfile .form-control {
+    padding-top: 0px !important;
+}
+
+.Customfile .custom-label {
+    padding: 8px 0px 30px;
+    width: 86%;
+    top: 0px !important;
+}
+
+#mtr .signup .Customfile .filebutton {
+    cursor: pointer;
+    display: block;
+    background-color: #1e55a5;
+    height: 42px;
+    color: #fff;
+    position: absolute;
+    right: 23px;
+    top: 8px;
+    line-height: 42px;
+    text-align: center;
+    -webkit-transition: 500ms all;
+    -moz-transition: 500ms all;
+    transition: 500ms all;
+    padding: 0 10px;
+    border-radius: 4px;
+}
+
+    #mtr .signup .Customfile .filebutton:hover {
+        background-color: #1d519c;
+    }
+
+#mtr .signup select.form-control {
+    color: #888 !important;
+    -moz-appearance: none;
+    -moz-user-select: none;
+    -webkit-appearance: none;
+    -webkit-user-select: none;
+    background: #fff url(../Content/images/SelectImg.png) no-repeat scroll 98% 55%;
+}
+
+#mtr .signup .reset {
+    margin-left: 5px;
+}
+
+#mtr .signup .btnbdr {
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+    margin-top: 15px;
+}
+
+#mtr .signup .custom-label {
+    font-weight: 400;
+    position: absolute;
+    left: 28px;
+    top: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#mtr .signup .file.form-control {
+    height: 60px;
+    padding-top: 0px;
+}
+
+span.mandatory {
+    padding-bottom: 15px;
+    display: inline-block;
+}
+
+/* Call Us Icon */
+
+.callus, .regCall {
+    background: #ff646c;
+    color: #fff;
+    position: fixed;
+    bottom: 20%;
+    right: 2%;
+    text-align: center;
+    padding: 22px;
+    border-radius: 4px;
+}
+
+    .callus .Callicon, .regCall .Callicon {
+        margin-bottom: 10px;
+    }
+
+    .callus p, .regCall p {
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 300;
+    }
+
+        .callus p.bold, .regCall p.bold {
+            font-weight: 500;
+        }
+
+i.fa.fa-caret-down.aDown {
+    position: absolute;
+    bottom: -20px;
+    color: #ff646c;
+    font-size: xx-large;
+}
+
+.fixed_button {
+    position: absolute !important;
+    bottom: 10% !important;
+}
+
+.fixed_buttonReg {
+    position: absolute !important;
+    bottom: -50% !important;
+}
+
+
+
+/*#mtr [type="radio"]:checked,
+#mtr [type="radio"]:not(:checked) { position: absolute; left: -9999px;}
+#mtr input[type=radio] { margin: 11px 5px 0;}
+
+#mtr [type="radio"]:checked + label,
+#mtr [type="radio"]:not(:checked) + label{
+position: relative; padding-left:36px; cursor: pointer; line-height: 24px; display: inline-block; color: #666; margin-right:20px; margin-top: 6px;}
+
+#mtr [type="radio"]:checked + label:before,
+#mtr [type="radio"]:not(:checked) + label:before {
+    content: ''; position: absolute; left: 0; top: 0; width: 24px; height: 24px; border: 1px solid #ddd; border-radius: 100%; background: #fff;}
+	
+#mtr [type="radio"]:checked + label:after,
+#mtr [type="radio"]:not(:checked) + label:after {
+content: ''; width: 16px; height: 16px; background: #ff646c; position: absolute; top: 4px; left: 4px; border-radius: 100%; -webkit-transition: all 0.2s ease; transition: all 0.2s ease;}
+
+#mtr [type="radio"]:not(:checked) + label:after {
+    opacity: 0; -webkit-transform: scale(0); transform: scale(0);}
+#mtr [type="radio"]:checked + label:after {opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+*/
+
+
+.POSApproval {
+    margin: 50px 0;
+}
+
+.POSApprovalTable {
+    margin-top: 30px;
+}
+
+#mtr .POSApproval .form-control {
+    box-shadow: none;
+    height: 60px;
+    font-size: 12px;
+    border-color: #e2e2e2;
+    color: #333;
+    padding-top: 30px;
+}
+
+#mtr .POSApproval .control-label {
+    font-weight: 400;
+}
+
+#mtr .POSApproval label {
+    font-weight: 400;
+}
+
+#mtr .POSApproval .custom-label {
+    font-weight: 400;
+    position: absolute;
+    left: 28px;
+    top: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#mtr .POSApprovalTable .btn.download, #mtr .POSApprovalTable .btn.approve {
+    font-size: 12px;
+}
+
+#mtr .POSApprovalTable .btn.download {
+    background: #ddd;
+    border-color: #ddd;
+    font-weight: 400;
+    box-shadow: 0px 3px 0px #adacac;
+}
+
+    #mtr .POSApprovalTable .btn.download:hover, #mtr .POSApprovalTable .btn.download:focus {
+        background: #ccc;
+        border-color: #ccc;
+        outline: none;
+    }
+
+#mtr .POSApprovalTable .btn.approve {
+    background: #ff646c;
+    border-color: #ff646c;
+    font-weight: 400;
+    box-shadow: 0px 3px 0px #be4248;
+    color: #fff !important;
+}
+
+    #mtr .POSApprovalTable .btn.approve:hover, #mtr .POSApprovalTable .btn.approve:focus {
+        background: #f8525a;
+        border-color: #f8525a;
+        color: #fff !important;
+        outline: none;
+    }
+
+#mtr .header-form .navbar-nav {
+    margin-top: 0px;
+}
+
+
+/* Left Bar */
+
+#mtr .nav-side-menu {
+    background-color: #1e55a5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    clear: both;
+    width: 100%;
+    color: #e1ffff;
+}
+
+    #mtr .nav-side-menu ul, .nav-side-menu li {
+        list-style: none;
+        padding: 15px;
+        margin: 0px;
+        line-height: 70px;
+        cursor: pointer;
+        .collapsed
+
+{
+    .arrow:before
+
+{
+    font-family: FontAwesome;
+    content: "\f053";
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+    float: right;
+}
+
+}
+}
+
+#mtr .nav-side-menu ul :not(collapsed) .arrow:before, .nav-side-menu li :not(collapsed) .arrow:before {
+    font-family: FontAwesome;
+    content: "\f078";
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+    float: right;
+}
+
+#mtr .nav-side-menu ul .active, .nav-side-menu li .active {
+    background-color: #1e55a5;
+}
+
+#mtr .nav-side-menu ul .sub-menu li.active, .nav-side-menu li .sub-menu li.active {
+    color: #d19b3d;
+}
+
+    #mtr .nav-side-menu ul .sub-menu li.active a {
+        color: #d19b3d;
+    }
+
+#mtr .nav-side-menu ul .sub-menu li:before, .nav-side-menu li .sub-menu li:before {
+    font-family: FontAwesome;
+    content: "\f105";
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+#mtr .nav-side-menu li {
+    padding-left: 0px;
+    border-bottom: 1px solid #2761b5;
+    text-decoration: none;
+    color: #e1ffff;
+    font-size: larger;
+}
+
+    #mtr .nav-side-menu li i {
+        padding-left: 15px;
+        width: 20px;
+        padding-right: 55px;
+        font-size: xx-large;
+        position: relative;
+        top: 4px;
+    }
+
+    #mtr .nav-side-menu li:hover {
+        background-color: #2761b5;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+        cursor: default;
+    }
+
+
+
+/* Go to Top */
+
+#back-to-top.show {
+    opacity: 1;
+    transform: scale(1);
+    transition: 300ms;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 44px;
+    background: linear-gradient(to right, #40b260 0%, #37b995 100%);
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+    font-size: 24px;
+    transform: scale(0);
+    -webkit-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+}
+
+
+/* Footer CSS */
+/*#mtr .footer {
+    background: #333333;
+    display: block;
+    padding: 40px 0 0;
+}
+
+#mtr .footer ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+}
+
+#mtr .footer ul li {
+font-size: 14px;
+color: #fff;
+line-height: 28px;
+}
+
+#mtr .footer ul li a {
+    color: #fff;
+}
+
+#mtr .footer .footer-col {
+width: 20%;
+}
+
+#mtr .footer .Social {
+padding-top: 20px;
+}
+
+#mtr .footer .SocialIcon {
+background: #fff;
+border-radius: 50%;
+display: inline-block;
+text-align: center;
+margin: 10px 0 0 5px;
+transform: translateZ(0px);
+transition-duration: 0.3s;
+}
+
+#mtr .footer .SocialIcon:hover {
+background: #fff;
+}
+
+#mtr .footer .SocialIcon i {
+color: #000;
+font-size: 18px;
+line-height: 40px;
+width: 40px;
+}
+
+#mtr .footer .SocialIcon i:hover {
+    color: #ff646c;
+}
+
+#mtr .footer .help {
+display: inline-block;
+line-height: 20px;
+padding-top: 25px;
+}
+
+#mtr .footer .help img {
+float: left;
+margin-right: 10px;
+padding-top: 0px;
+}
+
+#mtr .footer .helptext {
+color: #999;
+}
+
+#mtr .footer2 {
+background: #3d3c3c;
+padding: 15px 0;
+margin-top: 40px;
+}
+
+#mtr .footer2 span {
+font-size: 12px;
+color: #999;
+}
+
+#mtr .footer2 span a {
+color: #999;
+}
+
+#mtr .footer2 .IRDADetail {
+font-size: 12px;
+line-height: 24px;
+border-top: 1px solid #555555;
+padding: 15px 0;
+color: #999;
+margin-top: 15px;
+}*/
+
+#mtr .irdaPayment .irdaF {
+    display: inline-block;
+}
+
+#mtr .irdaPayment span {
+    font-size: 12px;
+    color: #999;
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+
+/*developer code for validation messages style 'deepak singh'*/
+.has-error .help-block,
+.has-error .control-label {
+    color: #b94a48;
+}
+
+.has-error .form-control {
+    border-color: #b94a48;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+    .has-error .form-control:focus {
+        border-color: #953b39;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+    }
+
+.error {
+    color: #f00;
+    /*background-color: #f2dede;*/
+    border-color: #ff646c !important;
+    font-weight: 500;
+}
+
+.required_group label.error {
+    display: none !important;
+}
+
+.required_group_message label.error {
+    top: -82px !important;
+    position: relative !important;
+    left: 167px;
+}
+
+
+
+/* Step WIzard */
+
+/*.stepwizard { padding-top: 60px;}*/
+.stepwizard .content section {
+    padding: 10px;
+    margin-bottom: 20px;
+    min-height: 750px;
+}
+
+/* Demo stuff */
+
+.stepwizard .nav .active {
+    text-decoration: none;
+}
+
+.sidebar .nav.nav-list.affix {
+    background: #1e55a5;
+    z-index: 9;
+    width: 20%;
+    padding: 20px 0 2%;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: #1e55a5;
+    color: #fff;
+}
+
+.sidebar .nav > li > a {
+    color: #fff;
+}
+
+.sidebar .nav li a span {
+    border: 2px solid #fff;
+    font-size: 18px;
+    font-weight: 500;
+    width: 42px;
+    height: 42px;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 40px;
+    margin-bottom: 7px;
+}
+
+ul.nav.nav-list.affix:before {
+    border-left: 1px solid #6581a9;
+    height: 380px;
+    position: absolute;
+    left: 50%;
+    z-index: 0;
+    content: "";
+    top: 12%;
+}
+
+.stepwizard .nav .active a span {
+    border: 2px solid #ff646c;
+    color: #ff646c;
+}
+
+.stepwizard .nav .active a p {
+    color: #ff646c;
+    text-decoration: none;
+}
+
+.stepwizard h2 {
+    padding-top: 0;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-top: 0;
+}
+
+.stepwizard img {
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+
+.stepwizard p {
+    text-transform: uppercase;
+    font-weight: 100;
+    padding: 0px !important;
+}
+
+.stepwizard .edittext {
+    display: inline-block;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+    .stepwizard .edittext .number {
+        color: #000;
+    }
+
+    .stepwizard .edittext .plan {
+        font-weight: 400;
+        color: #999;
+    }
+
+.stepwizard .textField .edit {
+    font-size: 14px;
+    border-radius: 4px;
+    float: right;
+    background: #fff;
+    border: 1px solid #ab9d9d;
+    padding: 2px 6px;
+    color: #2d3e50;
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.sidebar .nav > li {
+    position: relative;
+    display: block;
+    text-align: center;
+    background: #1e55a5;
+    margin-bottom: 35px;
+}
+
+.stepwizard .Wizardicon {
+    background: #1e55a5;
+    padding-top: 32px;
+    margin: 15px auto;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    color: #ff646c;
+    text-align: center;
+    font-size: 20px;
+    border: 3px solid #ff646c;
+    line-height: 1.5;
+}
+
+    /*.stepwizard .Wizardicon {
+    background: #1e55a5;
+    padding-top: 32px;
+    margin: 15px auto;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    color: #ff646c;
+    text-align: center;
+    font-size:16px;
+    border: 3px solid #ff646c;
+    line-height: 18px;
+}*/
+
+    .stepwizard .Wizardicon i {
+        display: block;
+    }
+
+/*.stepwizard .Wizardicon i {
+        display: block;
+        margin: 0 0 7px 0;
+    }*/
+
+.custom-radio .control-label {
+    text-align: left;
+    margin-bottom: 7px;
+    font-weight: 500 !important;
+}
+
+#mtr .stepwizard h1 {
+    margin-bottom: 15px !important;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+#mtr .stepwizard .StepNo {
+    color: #fff;
+    background: #ff646c;
+    margin-right: 10px;
+    font-size: 18px;
+    border-radius: 50%;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.content {
+    position: relative;
+}
+
+span.textField.newedit {
+    margin-top: 12px;
+}
+
+.content section {
+    width: 100%;
+}
+
+.ICRightPanel.panel-group {
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 9;
+}
+
+.ICRightPanel img {
+    padding-bottom: 10px !important;
+}
+
+.ICRightPanel span {
+    margin-bottom: 5px !important;
+    font-size: 12px !important;
+    text-transform: capitalize;
+    line-height: 24px !important;
+}
+
+.ICRightPanel h2 {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    background: #ecf0f1;
+    padding: 15px;
+}
+
+.ICRightPanel .well {
+    min-height: 0px;
+    padding: 15px;
+    margin-bottom: 0px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 0px 0px;
+    box-shadow: inset 0 0px 0px;
+}
+
+.ICRightPanel .value {
+    color: #666;
+    margin-left: 10px;
+}
+
+.ICRightPanel .label {
+    color: #000;
+    padding: 0px;
+    font-weight: 500;
+}
+
+.ICRightPanel.panel-group .panel {
+    border-radius: 0px !important;
+}
+
+.ICRightPanel .ThreeHide {
+    display: none;
+}
+
+
+
+
+/* Quotation */
+
+.PolicyListing {
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+}
+
+    .PolicyListing .block-view {
+        background: #ffffff;
+        border: 1px solid #ddd;
+        display: inline-block;
+        margin-bottom: 5px;
+        transform: translateZ(0px);
+        transition-duration: 0.9s;
+        width: 100%;
+        height: 100%;
+    }
+
+.block-view .IC, .IC-Desc, .BuyNow, .IDVNCB {
+    float: left;
+    height: 100px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.block-view .BuyNow .btn-lg {
+    background: #1e55a5 none repeat scroll 0 0;
+    display: block;
+    margin-right: 0;
+    box-shadow: 0px 3px 0px #153a70;
+    padding: 0;
+    width: 100%;
+    border-radius: 4px;
+}
+
+    .block-view .BuyNow .btn-lg:hover {
+        background: #124ea5;
+        border-color: #124ea5;
+    }
+
+.PolicyListing .block-view .IC {
+    width: 40%;
+}
+
+.PolicyListing .block-view .IDVNCB {
+    width: 50%;
+}
+
+.PolicyListing .block-view .IC img {
+    width: auto;
+    padding: 0px;
+}
+
+.PolicyListing .block-view .IC-Desc {
+    width: 30%;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.BuyNow {
+    width: 30%;
+    position: relative;
+}
+
+    .BuyNow .btncover {
+        width: 100%;
+        padding: 0px 18% 0;
+    }
+
+.PolicyListing .block-view .logobox {
+    width: 50%;
+    text-align: center;
+}
+
+.PolicyListing .block-view .ncbtext, .addons, .links {
+    float: left;
+}
+
+    .PolicyListing .block-view .ncbtext a.garages {
+        margin: 10px 0;
+        display: inline-block;
+    }
+
+.PolicyListing .block-view .addons {
+    padding: 0px;
+}
+
+.PolicyListing .block-view .ncbtext, .links {
+    width: 90%;
+}
+
+.PolicyListing .block-view .addons {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    width: 100%;
+}
+
+.addsDetail .mobview {
+    display: none;
+}
+
+.PolicyListing .block-view .details, .ICName {
+    display: none;
+}
+
+.PolicyListing .block-view .name {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.PolicyListing .block-view .planname {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.block-view .addons p {
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.block-view .morelink {
+    font-size: 13px;
+    position: absolute;
+    right: 4%;
+    top: 72%;
+    width: 100%;
+    text-align: right;
+}
+
+    .block-view .morelink a {
+        color: #2980b9;
+        text-decoration: none;
+    }
+
+.morelink .detailbtn {
+    margin-left: 14%;
+    color: #1f396d !important;
+}
+
+.block-view .buynow-btn {
+    background: none;
+    border: 0 none;
+    padding: 0px;
+    color: #ffffff;
+    transform: translateZ(0px);
+    transition-duration: 0.3s;
+}
+
+    .block-view .buynow-btn:hover {
+        background: none;
+        border-color: inherit;
+    }
+
+    .block-view .buynow-btn:active:focus, .block-view .buynow-btn:active:hover {
+        background: none;
+        border-color: inherit;
+        color: #fff;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .block-view .buynow-btn span {
+        display: block;
+    }
+
+        .block-view .buynow-btn span.price {
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 30px;
+        }
+
+        .block-view .buynow-btn span.buytext {
+            font-size: 12px;
+            text-transform: uppercase;
+            text-align: right;
+        }
+
+.block-view .links {
+    font-size: 13px;
+}
+
+    .block-view .links a {
+        color: #2980b9;
+    }
+
+    .block-view .links > p {
+        margin: 10px 0;
+        font-size: 12px !important;
+        margin: 0px !important;
+        line-height: 1.5 !important;
+        text-transform: capitalize;
+        text-align: center;
+        font-weight: 400 !important;
+    }
+
+.block-view .ncbtext {
+    font-size: 13px;
+    padding: 0 3%;
+}
+
+.block-view .webrupee {
+    font-style: normal;
+    font-weight: 100 !important;
+}
+
+.block-view .ncbtext .labelbox {
+    position: relative;
+    padding: 5px 0;
+}
+
+    .block-view .ncbtext .labelbox::before {
+        border-bottom: 1px solid rgba(49, 68, 81, 0.2);
+        content: "";
+        height: 1px;
+        left: 0%;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        z-index: 0;
+    }
+
+    .block-view .ncbtext .labelbox .value {
+        background: #ffffff none repeat scroll 0 0;
+        padding-left: 10px;
+        position: absolute;
+        right: 0;
+    }
+
+    .block-view .ncbtext .labelbox .labeltext {
+        background: #ffffff none repeat scroll 0 0;
+        padding-right: 10px;
+        position: relative;
+        z-index: 1;
+    }
+
+.block-view .addsDetail {
+    width: 70%;
+    padding-left: 3%;
+}
+
+    .block-view .addsDetail .labelbox {
+        position: relative;
+        padding: 0px 0;
+        line-height: 22px;
+        font-size: 12px;
+    }
+
+        .block-view .addsDetail .labelbox::before {
+            border-bottom: 1px solid rgba(49, 68, 81, 0.2);
+            content: "";
+            height: 1px;
+            left: 0%;
+            position: absolute;
+            right: 0;
+            top: 50%;
+            z-index: 0;
+        }
+
+        .block-view .addsDetail .labelbox .value {
+            background: #ffffff none repeat scroll 0 0;
+            padding-left: 10px;
+            position: absolute;
+            right: 0;
+        }
+
+        .block-view .addsDetail .labelbox .labeltext {
+            background: #ffffff none repeat scroll 0 0;
+            padding-right: 10px;
+            position: relative;
+            z-index: 1;
+        }
+
+.PolicyListing .block-view .ICDetails .well {
+    background-color: #fff;
+    border: 0px;
+    border-top: 1px solid #ddd;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    box-shadow: inherit;
+    margin: 0px;
+    padding: 15px 15px 0;
+}
+
+.ICDetails .list-group-item {
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+
+.well.viewdetails ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+    .well.viewdetails ul li {
+        font-size: 13px;
+        font-weight: 400;
+        padding: 10px !important;
+    }
+
+.well.viewdetails li.list-group-item:first-child {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border: 0 none;
+    background: #ecf0f1;
+    color: #1f396d;
+}
+
+.well.viewdetails li.list-group-item:last-child {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.list-group i.fa.fa-chevron-circle-right {
+    margin-right: 5px;
+}
+
+.popover {
+    width: 100% !important;
+}
+
+.popover-content .addsDetail {
+    width: 100%;
+}
+
+    .popover-content .addsDetail .labelbox {
+        position: relative;
+        padding: 0px 0;
+        line-height: 18px;
+        font-size: 12px;
+    }
+
+        .popover-content .addsDetail .labelbox::before {
+            border-bottom: 1px solid rgba(49, 68, 81, 0.2);
+            content: "";
+            height: 1px;
+            left: 0%;
+            position: absolute;
+            right: 0;
+            top: 50%;
+            z-index: 0;
+        }
+
+        .popover-content .addsDetail .labelbox .value {
+            background: #ffffff none repeat scroll 0 0;
+            padding-left: 10px;
+            position: absolute;
+            right: 0;
+        }
+
+        .popover-content .addsDetail .labelbox .labeltext {
+            background: #ffffff none repeat scroll 0 0;
+            padding-right: 10px;
+            position: relative;
+            z-index: 1;
+        }
+
+.PolicyListing .block-view .Tenhgt {
+    height: 125px !important
+}
+
+/* Proposer Detail */
+.ProposerDetail .rcExpAlert {
+    font-size: 14px !important;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.PaymentPreview .textvalue {
+    color: #666;
+}
+
+.PaymentPreview .textlabel {
+    padding: 0px;
+}
+
+.PaymentPreview .textvalue {
+    padding: 0px;
+    white-space: normal;
+    word-break: break-word;
+}
+
+.PaymentPreview .table > tbody > tr > td, .PaymentPreview .table > tbody > tr > th, .PaymentPreview .table > tfoot > tr > td, .PaymentPreview .table > tfoot > tr > th, .PaymentPreview .table > thead > tr > td,
+.PaymentPreview .table > thead > tr > th {
+    padding: 8px 0;
+}
+
+
+
+
+
+/*developer code for validation messages style 'deepak singh'*/
+.has-error .help-block, .has-error .control-label {
+    color: #b94a48;
+}
+
+.has-error .form-control {
+    border-color: #b94a48;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+    .has-error .form-control:focus {
+        border-color: #953b39;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+    }
+
+.error {
+    color: #f00;
+    border-color: #ff646c !important;
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.required_group label.error {
+    display: none !important;
+}
+
+.required_group_message label.error {
+    position: relative !important;
+    left: 336px;
+}
+
+.invalid_user {
+    color: red;
+    text-align: center;
+}
+
+#spanOtpError {
+    color: red;
+    text-align: center;
+}
+
+.WelcomeUser {
+    padding: 15px;
+}
+
+    .WelcomeUser span {
+        color: #ff646c;
+    }
+
+.fileclear {
+    display: none;
+}
+
+.custom_radio span.error {
+    border: 1px solid #f00;
+    border-radius: 4px;
+    display: block;
+    color: #666;
+}
+
+.modal-dialog .spn_message, .modal-dialog .success_message {
+    color: #f8525a;
+    font-size: 13px;
+}
+/* 1 Nov 2017*/
+.signup .form-control[readonly] {
+    background: #fff !important;
+}
+
+.radioError {
+    position: relative;
+    line-height: 7px;
+}
+
+    .radioError label.error {
+        position: absolute;
+        top: 25px;
+        left: 15px;
+    }
+
+#loading-image {
+    width: 5%;
+}
+
+.ui-widget.ui-widget-content.ui-autocomplete {
+    height: 200px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.responseNav {
+    min-height: 500px;
+    margin: 30px auto;
+    width: 600px;
+}
+
+    .responseNav .panel-heading {
+        font-size: 24px;
+        font-weight: 600;
+        text-align: center;
+        color: #1f55a5;
+    }
+
+.btn-success.green-btn {
+    color: #fff;
+    background-color: #ff646c;
+    border-color: #ff646c;
+}
+
+.TransitionSummary .btn-success.green-btn:hover, .TransitionSummary .btn-success.green-btn:focus {
+    background: #f8525a;
+    border-color: #f8525a;
+    color: #fff !important;
+    outline: none;
+}
+
+.AddOnsLabel label {
+    font-weight: 500 !important;
+    font-size: 12px;
+}
+
+.responseNav {
+    margin-top: 128px;
+}
+
+.sidebar {
+    padding-top: 90px;
+}
+
+/* My Account */
+.Wizardicon .AccountTxt {
+    font-size: 15px;
+}
+
+.MyAccount .CustomTable tr th, .leadDetail tr td:last-child, .MyAccount .CustomTable tr td {
+    text-align: center;
+}
+
+.MyAccount ul.nav.nav-list.affix:before {
+    display: none;
+}
+
+.MyAccount .sidebar .nav.nav-list.affix {
+    height: 100vh;
+}
+
+.MyAccount .WelcomeTxt {
+    height: 82vh;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+/*Forward Proposal*/
+.sidebar .ForwardProposal.nav.nav-list.affix {
+    height: 100vh !important;
+}
+/*OD and TP Policy date*/
+span.value.Policy {
+    display: block;
+    margin-left: 0px;
+}
+
+ul.MyAccount li a {
+    font-size: 20px;
+}
+
+.MyAccount span.textField.newedit {
+    margin-top: 0px;
+}
+
+.MyProfileTable.table td {
+    width: 50%;
+}
+
+.MyAccount .signup {
+    border-bottom: 0px !important;
+}
+
+.table-data.table-responsive.CustomTable {
+    height: 557px;
+}
+
+.Brokerage.table.table-bordered.table-striped {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Brokerage.table.table-bordered.table-striped {
+    font-weight: 600;
+}
+
+.PolicyListing .labelbox.PolicyTenure {
+    display: inline-block;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    padding: 0.2rem 1rem;
+}
+
+.LoginOTP {
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 12px;
+}
+
+#mtr .signup.PaymentPreview.CAR {
+    border-bottom: 0px !important;
+}
+
+
+
+#AboutMillenials .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+    #AboutMillenials .carousel-indicators {
+        bottom: -4px;
+    }
+}
+
+
+
+
+
+
+#AboutMillenials .carousel-indicators {
+    position: absolute;
+    z-index: 15;
+    width: 100%;
+    padding-left: 0;
+    margin-left: -50%;
+    text-align: center;
+    list-style: none;
+    top: 105%;
+}
+
+#AboutMillenials .carousel-control.left, #AboutMillenials .carousel-control.right {
+    background-image: none;
+}
+
+#AboutMillenials .carousel-control.right {
+    right: -100px;
+}
+
+#AboutMillenials .carousel-control.left {
+    left: -100px;
+}
+
+#AboutMillenials .carousel-control {
+    width: 10% !important;
+}
+
+.RTOBox {
+    position: relative;
+    background: #fff;
+}
+
+div#divloaderRTO ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    max-height: 200px;
+    overflow: scroll;
+    overflow-x: hidden;
+    border: 1px solid #ddd;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    background: #fff;
+}
+
+    div#divloaderRTO ul li a {
+        color: #333;
+        padding: 5px 10px;
+        display: inline-block;
+        width: 100%;
+        cursor: pointer;
+    }
+
+        div#divloaderRTO ul li a:hover {
+            background: #ddd;
+            text-decoration: none;
+        }
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-nav .open .dropdown-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: transparent;
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+        .navbar-nav .open .dropdown-menu > li > a {
+            line-height: 20px;
+        }
+
+        .navbar-nav .open .dropdown-menu > li > a,
+        .navbar-nav .open .dropdown-menu .dropdown-header {
+            padding: 5px 15px 5px 25px;
+        }
+
+    .dropdown-menu > li > a {
+        display: block;
+        padding: 3px 20px;
+        clear: both;
+        font-weight: normal;
+        line-height: 1.42857143;
+        color: #333;
+        white-space: nowrap;
+    }
+
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-toggle {
+        display: block;
+        margin-top: 15px;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+
+        .navbar-collapse.collapse {
+            display: none !important;
+        }
+
+    .navbar-nav {
+        float: none !important;
+        /*margin: 7.5px -15px;*/
+        margin: 7.5px 50px 7.5px -15px
+    }
+
+        .navbar-nav > li {
+            float: none;
+        }
+
+            .navbar-nav > li > a {
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+
+    .collapsing {
+        overflow: hidden !important;
+    }
+}
+
+/*Trans. loader*/
+
+.loading {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255,0.7);
+    z-index: 9999;
+    text-align: center;
+}
+
+    .loading #loading-image {
+        width: auto;
+        position: absolute;
+        top: 40%;
+        left: 37%;
+    }
+
+        .loading #loading-image img {
+            width: 20%;
+            padding: 0px;
+        }
+
+        .loading #loading-image b {
+            font-weight: 700;
+            width: 100%;
+            display: block;
+        }
+
+/*@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.loading::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 48%;
+    top: 40%;
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-color: black;
+    border-top-color: transparent;
+    border-width: 4px;
+    border-radius: 50%;
+    -webkit-animation: spin .8s linear infinite;
+    animation: spin .8s linear infinite;
+}*/
+
+
+/* Blog */
+
+.Blog {
+    background-color: #fff !important;
+}
+
+.Blog {
+    padding: 14rem 0 6rem;
+}
+
+.Blog {
+    -webkit-box-pack: center !important;
+    justify-content: center;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+
+    .Blog h1 {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 4rem;
+        color: #1e55a5;
+        font-weight: 600;
+    }
+
+    .Blog .card {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: .25rem;
+        margin-bottom: 30px;
+    }
+
+    .Blog .card-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        padding: 1.25rem;
+        min-height: 153px;
+    }
+
+    .Blog .card-title {
+        margin-bottom: .75rem;
+    }
+
+    .Blog .card-title {
+        font-size: 18px;
+        color: #1e55a5;
+        line-height: 1.5;
+    }
+
+    .Blog .card-body {
+        text-align: left;
+    }
+
+    .Blog .destacados > div > div {
+        padding: 0px;
+    }
+
+    .Blog span.date {
+        color: #8b8b8b;
+        margin-bottom: 0.7em;
+        display: inline-block;
+    }
+
+    .Blog .btn-primary {
+        color: #ff646c;
+        background-color: transparent;
+        border-color: #ddd;
+        border-top: 1px solid #ddd !important;
+        border: 0px;
+        border-radius: 0px;
+        padding: .7rem 0rem;
+        border-bottom-left-radius: .25rem;
+        border-bottom-right-radius: .25rem
+    }
+
+        .Blog .btn-primary:hover {
+            color: #fff;
+            background-color: #ff646c;
+        }
+
+        .Blog .btn-primary:not(:disabled):not(.disabled).active, .KnowledgeCenter .btn-primary:not(:disabled):not(.disabled):active, .KnowledgeCenter .show > .btn-primary.dropdown-toggle {
+            color: #fff;
+            background-color: #ff646c;
+            border-color: #ff646c;
+            border-bottom-left-radius: .25rem;
+            border-bottom-right-radius: .25rem;
+        }
+
+    .Blog .card-img-top {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        display: block;
+        width: 100%;
+    }
+
+    .Blog .destacados > div > div {
+        background: #fff;
+    }
+
+    .Blog .card-text:last-child {
+        font-size: 14px;
+        line-height: 2;
+        font-weight: 400;
+    }
+
+    .Blog i.fa.fa-arrow-right {
+        padding-left: 5px;
+    }
+
+.BlogDetail {
+    padding: 14rem 0 4rem;
+}
+
+    .BlogDetail p.card-text {
+        margin-bottom: 15px;
+        line-height: 2;
+    }
+
+    .BlogDetail .card-title {
+        font-size: 36px;
+        font-weight: 600;
+        color: #1e55a5;
+        line-height: 1.5;
+        margin-bottom: 15px;
+    }
+
+    .BlogDetail .card {
+        border: 0px;
+    }
+
+    .BlogDetail .card-body {
+        padding: 1rem 0;
+    }
+
+    .BlogDetail .auther {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+        .BlogDetail .auther .img-circle {
+            border-radius: 50%;
+            width: 50px;
+            border: 1px solid #ddd;
+            margin-right: 1rem;
+            float: left;
+        }
+
+        .BlogDetail .auther span.name {
+            font-size: 16px;
+            margin-top: 5px;
+            display: inline-block;
+            font-weight: 500;
+        }
+
+    .BlogDetail span.date {
+        font-size: 12px;
+    }
+
+.Blog .imgBox {
+    height: 187px;
+    overflow: hidden;
+}
+
+    .Blog .imgBox img {
+        height: 100%;
+    }
+
+
+/* Landing Page New CSS */
+.Millennials_001 {
+    font-family: 'Work Sans', sans-serif !important;
+}
+
+    /*Nav New */
+
+    .Millennials_001 .navbar-brand.custom_nav {
+        position: absolute;
+        display: block;
+        margin: 0 42%;
+    }
+
+    .Millennials_001 .custom_nav {
+        padding: 25px !important;
+        box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.18);
+    }
+
+        .Millennials_001 .custom_nav .btn {
+            background: #000;
+            color: #fff;
+            padding: 5px 27px;
+            font-family: 'Work Sans', sans-serif !important;
+            cursor: pointer;
+        }
+
+.LandingMenu button.btn.btn-primary, .LandingMenu a.btn.btn-primary {
+    background: #000;
+    border-color: #000;
+    color: #fff !important;
+    padding: 5px 27px;
+    box-shadow: 0px 0px 0px;
+    font-family: 'Work Sans', sans-serif !important;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+    .LandingMenu button.btn.btn-primary:hover, .LandingMenu a.btn.btn-primary:hover, .LandingMenu button.btn.btn-primary:focus {
+        background: #000;
+        border-color: #000;
+        color: #fff;
+    }
+
+.LandingMenu a.btn.btn-primary {
+    margin-top: 6px;
+    padding: 6px 27px !important;
+}
+
+.Millennials_001 .custom_nav a.nav-link {
+    font-weight: 500;
+    color: #000 !important;
+}
+
+.Millennials_001 .banner img {
+    width: 100%;
+}
+
+.Millennials_001 section {
+    width: 100%;
+    float: left;
+}
+
+.Millennials_001 .Insurance {
+    background: #f0f0f0;
+}
+
+.Millennials_001 .Insurance_heading h1 {
+    text-align: center;
+    margin: 65px 0 30px 0;
+}
+
+.Millennials_001 .Insurance_img img {
+    width: 100%;
+}
+
+.Millennials_001 .p_0 {
+    padding: 0 !important;
+}
+/*.p_lft_15 {
+	padding-left: 15px !important;
+}
+.p_rt_15 {
+	padding-right: 15px !important;
+}*/
+.Millennials_001 .Insurance_row {
+    width: 100%;
+    float: left;
+    background: #fff;
+    margin: 0;
+}
+
+.Millennials_001 .Insurance_content {
+    padding: 30px;
+}
+
+    .Millennials_001 .Insurance_content h2 {
+        font-size: 22px;
+        font-weight: 600;
+        margin: 10px 0 15px 0;
+    }
+
+    .Millennials_001 .Insurance_content p {
+        color: #686868;
+        line-height: 20px;
+        font-size: 15px;
+    }
+
+    .Millennials_001 .Insurance_content .btn {
+        background: #05a59d;
+        color: #fff !important;
+        border: 1px solid #05a59d;
+        padding: 6px 16px;
+        margin: 8px 0 0 0;
+    }
+
+.Millennials_001 .happy_clients {
+    border-top: 30px solid #f0f0f0;
+    border-bottom: 30px solid #f0f0f0;
+    padding: 60px 0;
+}
+
+.Millennials_001 .clients_box {
+    text-align: center;
+}
+
+    .Millennials_001 .clients_box h1 {
+        color: #05a59d;
+        font-weight: 600;
+        font-size: 56px;
+    }
+
+    .Millennials_001 .clients_box p {
+        font-size: 30px;
+        color: #686868;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+.Millennials_001 .agent {
+    border-bottom: 30px solid #f0f0f0;
+    padding: 60px 0;
+}
+
+    .Millennials_001 .agent .thin_heading {
+        text-align: center;
+        font-size: 34px;
+        margin: 0 0 40px 0;
+    }
+
+    .Millennials_001 .agent .b_heading {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin: 0px 0 45px 0;
+        color: #0abeb3;
+    }
+
+.Millennials_001 .agent_box_outer {
+    position: relative;
+}
+
+.Millennials_001 .agent_box {
+    background: #02d8cc;
+    padding: 35px;
+    border-radius: 25px;
+    min-height: 175px;
+    margin: 0 0 5vw 0;
+}
+
+    .Millennials_001 .agent_box p {
+        color: #000;
+        font-weight: 500;
+        font-size: 17px;
+        margin: 0 0 10px 0;
+    }
+
+.Millennials_001 .phone_no span {
+    font-weight: 700;
+    font-size: 20px;
+    color: #233632;
+    margin: 0 20px 0 0;
+}
+
+.Millennials_001 .phone_no {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Millennials_001 .agent_box.left {
+    padding-right: 40px;
+}
+
+.Millennials_001 .agent_box.right {
+    padding-left: 40px;
+}
+
+.Millennials_001 .agent_box input {
+    color: #a2a19f;
+    border: 0;
+    border-radius: 10px;
+    padding: 13px;
+    width: 97%;
+    margin: 10px 0 0 0;
+}
+
+.Millennials_001 .or_img {
+    position: absolute;
+    z-index: 9;
+    width: 8%;
+    margin: 4% 46%;
+}
+
+.Millennials_001 .footer {
+    padding: 65px 0;
+    font-family: 'Work Sans', sans-serif !important;
+}
+
+.Millennials_001 .footer_upper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+    .Millennials_001 .footer_upper .logo img {
+        width: 165px;
+    }
+
+    .Millennials_001 .footer_upper .center_imgs {
+        text-align: center;
+    }
+
+    .Millennials_001 .footer_upper h4 {
+        font-size: 16px;
+        margin: 0 0 10px 0;
+    }
+
+    .Millennials_001 .footer_upper .center_imgs img {
+        width: 385px;
+    }
+
+    .Millennials_001 .footer_upper .right_imgs {
+        text-align: center;
+    }
+
+        .Millennials_001 .footer_upper .right_imgs img {
+            width: 117px;
+        }
+
+.Millennials_001 .footer_lower {
+    margin: 60px 0 0 0;
+}
+
+.Millennials_001 .footer_lower_bx h4 {
+    font-size: 14px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: .5rem;
+}
+
+.Millennials_001 .footer_lower_bx ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+    .Millennials_001 .footer_lower_bx ul li {
+        font-size: 14px;
+        color: #292929;
+        margin: 0 0 0px 0;
+    }
+
+.Millennials_001 .sky_footer {
+    position: relative;
+    background: #02d8cc;
+    padding: 35px 0;
+}
+
+.Millennials_001 .social_icons {
+    display: flex;
+    justify-content: center;
+    margin-top: -62px;
+}
+
+    .Millennials_001 .social_icons img {
+        margin: 0 5px;
+    }
+
+.Millennials_001 .link_link {
+    padding: 20px 0 0 0;
+}
+
+    .Millennials_001 .link_link ul {
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+        padding: 0;
+    }
+
+        .Millennials_001 .link_link ul li {
+            font-weight: 500;
+        }
+
+.Millennials_001 .copyright {
+    background: #f0f0f0;
+    padding: 35px 0;
+    text-align: center;
+}
+
+    .Millennials_001 .copyright p {
+        font-size: 14px;
+        color: #8a7d7d;
+        margin: 0 0 5px 0;
+    }
+
+        .Millennials_001 .copyright p.last {
+            color: #000;
+            font-weight: 500;
+        }
+
+.Millennials_001 .about_us,
+.Millennials_001 .partner {
+    border-bottom: 30px solid #f0f0f0;
+    padding: 60px 0;
+}
+
+    .Millennials_001 .partner ul.companies_logos li {
+        width: 25%;
+        float: left;
+        padding: 17px;
+    }
+
+        .Millennials_001 .partner ul.companies_logos li img {
+            width: 90%;
+            border: 1px solid #d8d8d8;
+            padding: 10px;
+            border-radius: 6px;
+        }
+
+    .Millennials_001 .about_heading,
+    .Millennials_001 .partner .thin_heading {
+        text-align: center;
+        font-size: 34px;
+    }
+
+.Millennials_001 .about_cntnt_bx {
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+
+.Millennials_001 .partner ul.companies_logos {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    float: left;
+    margin-top: 35px;
+}
+
+.Millennials_001 .about_cntnt_bx h3 {
+    color: black;
+}
+
+.Millennials_001 .about_cntnt_bx p {
+    font-weight: 500;
+    color: #666666;
+    position: relative;
+}
+
+    .Millennials_001 .about_cntnt_bx p::before {
+        content: '';
+        background: #01d3d0;
+        width: 20%;
+        height: 4px;
+        position: absolute;
+        top: 35px;
+        left: 40%;
+        border-radius: 20px;
+    }
+
+.Millennials_001 .about_bx {
+    position: relative;
+}
+
+.custom-nav.NewMilbNav {
+    position: static !important;
+}
+
+.Millennials_001 .header-form {
+    margin-top: 0 !important;
+}
+
+.Millennials_001 .about_bx img {
+    width: 100%;
+    z-index: 9;
+    position: relative;
+}
+
+.Millennials_001 .about_bx::before {
+    content: '';
+    background: #01d3d0;
+    width: 100%;
+    height: 147px;
+    position: absolute;
+    bottom: 0;
+    z-index: 9;
+}
+
+.Millennials_001 .xtrm_outer {
+    background: #f8f8f8;
+    padding: 40px 0;
+    overflow: hidden;
+}
+
+.Millennials_001 .know_more {
+    text-align: center;
+    width: 100%;
+    display: table !important;
+    margin: 25px 0 0 0 !important;
+}
+
+    .Millennials_001 .know_more .btn {
+        background: #02d8cc;
+        border: 1px solid #02d8cc;
+        padding: 6px 16px;
+    }
+
+.Millennials_001 .testimonials .carousel {
+    margin: 0 auto;
+    padding: 0 70px;
+}
+
+    .Millennials_001 .testimonials .carousel .item {
+        color: #999;
+        overflow: hidden;
+        min-height: 120px;
+        font-size: 13px;
+    }
+
+    .Millennials_001 .testimonials .carousel .media {
+        position: relative;
+        padding: 0 0 0 20px;
+    }
+
+        .Millennials_001 .testimonials .carousel .media img {
+            width: 75px;
+            height: 75px;
+            display: block;
+            border-radius: 50%;
+        }
+
+    .Millennials_001 .testimonials .carousel .testimonial-wrapper {
+        padding: 0 10px;
+    }
+
+    .Millennials_001 .testimonials .carousel .testimonial {
+        color: #808080;
+        position: relative;
+        padding: 15px;
+        background: #f1f1f1;
+        border: 1px solid #efefef;
+        border-radius: 3px;
+        margin-bottom: 15px;
+    }
+
+        .Millennials_001 .testimonials .carousel .testimonial::after {
+            content: "";
+            width: 15px;
+            height: 15px;
+            display: block;
+            background: #f1f1f1;
+            border: 1px solid #efefef;
+            border-width: 0 0 1px 1px;
+            position: absolute;
+            bottom: -8px;
+            left: 46px;
+            transform: rotateZ(-46deg);
+        }
+
+    .Millennials_001 .testimonials .carousel .star-rating li {
+        padding: 0 2px;
+    }
+
+.Millennials_001 .carousel .star-rating i {
+    font-size: 16px;
+    color: #ffdc12;
+}
+
+.Millennials_001 .testimonials .carousel .overview {
+    padding: 3px 0 0 15px;
+}
+
+    .Millennials_001 .testimonials .carousel .overview .details {
+        padding: 5px 0 8px;
+    }
+
+    .Millennials_001 .testimonials .carousel .overview b {
+        text-transform: uppercase;
+        color: #1abc9c;
+    }
+
+
+
+.Millennials_001 .testimonials .carousel-indicators li,
+.Millennials_001 .testimonials .carousel-indicators li.active {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin: 1px 2px;
+}
+
+.Millennials_001 .testimonials .carousel-indicators li {
+    background: #e2e2e2;
+    border: 4px solid #fff;
+}
+
+193
+.Millennials_001 .testimonials .carousel-indicators li.active {
+    color: #fff;
+    background: #1abc9c;
+    border: 5px double;
+}
+
+.Millennials_001 .testimonials {
+    border-bottom: 30px solid #f0f0f0;
+    padding: 60px 0;
+}
+
+    .Millennials_001 .testimonials h1::after {
+        content: "";
+        width: 100px;
+        position: absolute;
+        margin: 0 auto;
+        height: 4px;
+        border-radius: 1px;
+        background: #02d8cc;
+        left: 0;
+        right: 0;
+        bottom: -20px;
+    }
+
+    .Millennials_001 .testimonials h1 {
+        text-align: center;
+        margin: 0px 0 40px 0;
+        position: relative;
+    }
+
+    .Millennials_001 .testimonials .carousel {
+        position: relative;
+        margin: 65px 0;
+    }
+
+        .Millennials_001 .testimonials .carousel .overview b {
+            text-transform: uppercase;
+            color: #02d8cc;
+            font-size: 16px;
+        }
+
+    .Millennials_001 #Banner .carousel-indicators li,
+    .Millennials_001 .testimonials .carousel-indicators li {
+        position: relative;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        width: 18px !important;
+        height: 18px !important;
+        margin-right: 3px;
+        margin-left: 3px;
+        text-indent: -999px;
+        background-color: rgb(208, 207, 207) !important;
+        border: 5px double !important;
+        color: #fff !important;
+        border-radius: 50%;
+    }
+
+        .Millennials_001 #Banner .carousel-indicators li.active,
+        .Millennials_001 .testimonials .carousel-indicators li.active {
+            background-color: #02d8cc !important;
+        }
+
+.Millennials_001 .footer_lower_bx h4 a {
+    color: #000;
+    text-decoration: none;
+}
+
+.Millennials_001 .footer_lower_bx ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.Millennials_001 .link_link ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.Millennials_001 #Banner .carousel-control-prev,
+.Millennials_001 #Banner .carousel-control-next {
+    opacity: 0;
+}
+
+.Millennials_001 #Banner .carousel .carousel-indicators {
+    bottom: 5px !important;
+}
+
+@media only screen and (max-width: 1280px) {
+    .Millennials_001 .Insurance_content {
+        padding: 10px;
+    }
+
+        .Millennials_001 .Insurance_content h2 {
+            font-size: 18px;
+            margin: 0px 0 5px 0;
+        }
+
+        .Millennials_001 .Insurance_content p {
+            line-height: 18px;
+            font-size: 14px;
+        }
+
+        .Millennials_001 .Insurance_content .btn {
+            padding: 4px 12px;
+            margin: 8px 0 0 0;
+            font-size: 14px;
+        }
+}
+
+@media only screen and (max-width: 1240px) {
+    .LandingMenu .MainNav ul.nav.navbar-nav li a {
+        padding: 10px 0 10px 11px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .Millennials_001 .know_more {
+        margin: 60px 0 0 0 !important;
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+    .Millennials_001 .custom_nav .navbar-brand {
+        position: unset;
+        display: unset;
+        margin: unset;
+    }
+
+        .Millennials_001 .custom_nav .navbar-brand.desktop {
+            display: none;
+        }
+
+    .Millennials_001 .footer_lower_bx {
+        margin: 0 0 15px 0;
+        width: 100%;
+        float: left;
+    }
+
+    .Millennials_001 .footer_upper .logo img {
+        width: 120px;
+    }
+
+    .Millennials_001 .footer_upper .logo img {
+        width: 120px;
+    }
+
+    .Millennials_001 .footer_upper .center_imgs img {
+        width: 260px;
+    }
+
+    .Millennials_001 .footer_upper .right_imgs img {
+        width: 85px;
+    }
+
+    .Millennials_001 .footer_lower {
+        margin: 30px 0 0 0;
+    }
+
+    .Millennials_001 .footer_upper h4 {
+        font-size: 13px;
+        margin: 0 0 8px 0;
+    }
+
+    .Millennials_001 .Insurance_content {
+        padding: 50px;
+    }
+
+    .Millennials_001 .or_img {
+        width: 10%;
+        margin: 22% 45%;
+    }
+
+    .Millennials_001 .custom_nav ul.navbar-nav.mr-auto {
+        text-align: center;
+        margin: 0 0 12px 0 !important;
+    }
+
+    .Millennials_001 .nav_nav .navbar-nav li {
+        border-bottom: 1px solid #eaeaea;
+    }
+
+    .Millennials_001 form.form-inline {
+        text-align: center;
+        display: table;
+        width: 100%;
+    }
+
+    .Millennials_001 .order2222 {
+        order: 2;
+    }
+
+    .Millennials_001 .order4444 {
+        order: 4;
+    }
+
+    .homePagelanding .custom-nav .navbar-brand {
+        padding: 15px 20px;
+    }
+
+    .homePagelanding nav.navbar.navbar-default.custom-nav {
+        padding: 0;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .Millennials_001 .copyright p {
+        font-size: 13px;
+        color: #8a7d7d;
+        margin: 0 0 12px 0;
+        line-height: 16px;
+    }
+
+    .Millennials_001 .footer_upper {
+        justify-content: left;
+        align-items: self-start;
+        flex-direction: column;
+    }
+
+        .Millennials_001 .footer_upper .center_imgs {
+            text-align: left;
+            margin: 27px 0 0 0;
+        }
+
+        .Millennials_001 .footer_upper .right_imgs {
+            text-align: left;
+            margin: 27px 0 0 0;
+        }
+
+    .Millennials_001 .clients_box h1 {
+        font-size: 48px;
+    }
+
+    .Millennials_001 .clients_box p {
+        font-size: 15px;
+    }
+
+    .Millennials_001 .happy_clients {
+        padding: 50px 0;
+    }
+
+    .Millennials_001 .about_cntnt_bx h3 {
+        font-size: 22px;
+    }
+
+    .Millennials_001 .about_cntnt_bx p {
+        font-size: 14px;
+    }
+
+        .Millennials_001 .about_cntnt_bx p::before {
+            height: 3px;
+            top: 31px;
+        }
+
+    .Millennials_001 .agent_box.left {
+        margin-bottom: 25px;
+    }
+
+    .Millennials_001 .or_img {
+        width: 12%;
+        margin: 18% 44%;
+    }
+
+    .Millennials_001 .Insurance_heading h1 {
+        margin: 50px 0px 25px 0;
+        font-size: 30px;
+    }
+
+    .Millennials_001 .agent .thin_heading {
+        font-size: 26px;
+    }
+
+    .Millennials_001 .agent {
+        padding: 50px 0;
+    }
+
+        .Millennials_001 .agent .b_heading {
+            margin: 0px 0 30px 0;
+            font-size: 30px;
+        }
+
+    .Millennials_001 .about_heading {
+        font-size: 30px;
+    }
+
+    .Millennials_001 .nav_nav .navbar-brand.mobile img {
+        width: 135px;
+    }
+
+    .Millennials_001 .testimonials h1 {
+        font-size: 30px;
+    }
+
+        .Millennials_001 .testimonials h1::after {
+            width: 65px;
+            height: 3px;
+            bottom: -15px;
+        }
+
+    .Millennials_001 .order2222 {
+        order: unset;
+    }
+
+    .Millennials_001 .order4444 {
+        order: unset;
+    }
+
+    .Millennials_001 .order_1 {
+        order: 1;
+    }
+
+    .Millennials_001 .order_2 {
+        order: 2;
+    }
+
+    .Millennials_001 .order_3 {
+        order: 3;
+    }
+
+    .Millennials_001 .order_4 {
+        order: 4;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    .Millennials_001 .or_img {
+        width: 12%;
+        margin: 21% 44%;
+    }
+
+    .Millennials_001 #Banner .carousel-indicators li,
+    .Millennials_001 .testimonials .carousel-indicators li {
+        width: 10px !important;
+        height: 10px !important;
+        margin-right: 2px;
+        margin-left: 2px;
+    }
+
+    .Millennials_001 #Banner .carousel-indicators {
+        bottom: -2px;
+    }
+
+    .Millennials_001 .partner ul.companies_logos li {
+        width: 33.33%;
+        float: left;
+        padding: 6px;
+    }
+
+    .Millennials_001 .partner ul.companies_logos {
+        margin: top: 25px;
+    }
+
+    .Millennials_001 .partner {
+        padding: 25px 0;
+    }
+}
+
+
+@media only screen and (max-width: 650px) {
+    .Millennials_001 .or_img {
+        width: 12%;
+        margin: 23% 44%;
+    }
+}
+
+
+
+@media only screen and (max-width: 575px) {
+    .Millennials_001 .footer_lower_bx {
+        padding-left: 30px;
+    }
+
+    .Millennials_001 .social_icons img {
+        margin: 0 3px;
+        width: 35px;
+    }
+
+    .Millennials_001 .social_icons {
+        margin-top: -47px;
+    }
+
+    .Millennials_001 .link_link ul li {
+        font-size: 13px;
+        margin: 0 12px 6px 12px;
+    }
+
+    .Millennials_001 .link_link ul {
+        flex-wrap: wrap;
+    }
+
+    .Millennials_001 .sky_footer {
+        padding: 30px 0 0px 0;
+    }
+
+    .Millennials_001 .copyright {
+        padding: 25px 0;
+    }
+
+    .Millennials_001 .footer_upper {
+        padding: 0 0 0 40px;
+    }
+
+    .Millennials_001 .or_img {
+        width: 16%;
+        margin: 25% 42%;
+    }
+
+    .Millennials_001 .nav_nav .navbar-toggler {
+        padding: 3px 5px !important;
+    }
+
+    .about_mob .item.carousel-item img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 535px) {
+    .Millennials_001 .or_img {
+        width: 16%;
+        margin: 27% 42%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .Millennials_001 .or_img {
+        width: 16%;
+        margin: 29% 42%;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .Millennials_001 .or_img {
+        width: 18%;
+        margin: 31% 41%;
+    }
+}
+
+@media only screen and (max-width: 435px) {
+    .Millennials_001 .or_img {
+        width: 18%;
+        margin: 33% 41%;
+    }
+
+    .Millennials_001 .agent_box a.btn {
+        font-size: 22px;
+    }
+
+    .Millennials_001 .agent_box.right {
+        min-height: auto;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .Millennials_001 .or_img {
+        width: 18%;
+        margin: 35% 41%;
+    }
+
+    .Millennials_001 .phone_no span {
+        font-size: 18px;
+        margin: 0 15px 0 0;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .Millennials_001 .or_img {
+        width: 18%;
+        margin: 37% 41%;
+    }
+}
+
+@media only screen and (max-width: 385px) {
+    .Millennials_001 .or_img {
+        width: 20%;
+        margin: 40% 40%;
+    }
+}
+
+@media only screen and (max-width: 355px) {
+    .Millennials_001 .or_img {
+        width: 20%;
+        margin: 43% 40%;
+    }
+}
+
+@media only screen and (max-width: 335px) {
+    .Millennials_001 .or_img {
+        width: 20%;
+        margin: 46% 40%;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .Millennials_001 .or_img {
+        width: 20%;
+        margin: 50% 40%;
+    }
+}
+
+
+
+/*--------------------*/
+/*--------------------*/
+@media only screen and (max-width: 991px) {
+    .Millennials_001 .covid_mid1_row .covid_mid1_bx {
+        margin-bottom: 20px;
+        min-height: 207px;
+    }
+
+    .Millennials_001 .twowhlr_mid5 .covid_mid1_bx {
+        min-height: 230px;
+    }
+
+    .Millennials_001 .twoweeler_banner .carousel-caption h5 {
+        font-size: 25px;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .Millennials_001 .covid_mid1_row .covid_mid1_bx {
+        min-height: auto;
+    }
+
+    .Millennials_001 .feedback_form form .form-group {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    .Millennials_001 .payment_form form .form-group {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    .Millennials_001 .payment_form p {
+        padding: 0;
+    }
+
+    .Millennials_001 .payment_form form .btn {
+        margin: 5px 10px 0 0;
+    }
+
+    .Millennials_001 .faq .faq-list li {
+        padding: 10px 40px 10px 15px;
+    }
+
+    .Millennials_001 .Insurance_plans_heading h1 {
+        font-size: 23px;
+    }
+
+    .Millennials_001 .Insurance_plan_bx h3:after {
+        width: 60px;
+    }
+
+    .Millennials_001 .faq-title h2 {
+        font-size: 30px;
+    }
+
+        .Millennials_001 .faq-title h2:after {
+            width: 50px;
+        }
+
+    .Millennials_001 .faq .faq-list a {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .Millennials_001 .payment_form form {
+        width: 100%;
+    }
+
+    .Millennials_001 .twoweeler_banner .carousel-caption {
+        bottom: 6vw;
+    }
+
+        .Millennials_001 .twoweeler_banner .carousel-caption h5 {
+            font-size: 16px;
+            margin: 0;
+        }
+}
+
+
+@media only screen and (max-width: 420px) {
+    .Millennials_001 .payment_form form .btn {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    .Millennials_001 .twoweeler_banner .carousel-caption h5 {
+        font-size: 14px;
+        margin: 0;
+    }
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    .twoweeler_banner .carousel-caption .icon {
+        font-size: 25px;
+        padding: 0 5px 0 0;
+    }
+
+    .twowhlr_mid4 .Insurance_plans_heading h3 {
+        font-size: 20px;
+    }
+
+    .navbar-default.custom-nav .navbar-nav > li > .dropdown.open .dropdown-menu {
+        position: relative;
+        top: 0;
+        width: 100%;
+        float: left;
+        text-align: center;
+        padding: 0;
+        border: 0;
+        margin-bottom: 27px;
+        box-shadow: none;
+    }
+
+    .Millennials_001 .coviddd_insurance .Insurance_plan_bx {
+        min-height: auto;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .twoweeler_banner .carousel-caption .icon {
+        font-size: 16px;
+    }
+
+    .twoweeler_banner .carousel-caption {
+        bottom: 4vw;
+    }
+
+    .twowhlr_mid4 .Insurance_plans_heading h3 {
+        font-size: 17px;
+    }
+
+    .HomeInsurancePlans ul {
+        padding: 0 20px;
+    }
+
+        .HomeInsurancePlans ul li {
+            justify-content: left;
+        }
+
+    .HomeInsurancePlans p {
+        text-align: left;
+    }
+
+    .twowhlr_mid1_row > p {
+        font-size: 17px;
+        line-height: 22px;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    ul.home_check_list li {
+        justify-content: left;
+    }
+
+        ul.home_check_list li p {
+            text-align: left !important;
+        }
+
+    .Millennials_001 .Insurance_plan_bx .text {
+        padding: 15px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (max-width : 1366px) {
+#mtr .header-form .desc{ position:absolute; top:120px; left:100px;}
+#mtr .AboutUs .desc { top: 100px;}
+#mtr .nav-side-menu li i { padding-left: 5px; padding-right: 35px; font-size: 24px;}
+#mtr .nav-side-menu ul, .nav-side-menu li {padding: 10px 5px;}
+.fixed_button { position: absolute !important;  bottom: -26% !important;  right:1%;}
+.callus { bottom:10%; right:3%;}
+.sidebar .nav>li {margin-bottom: 28px;}
+ul.nav.nav-list.affix:before {top: 12%;}
+#back-to-top { bottom: 10px;  width: 40px; height: 40px; line-height: 40px; font-size: 18px;}
+.fixed_buttonReg { position: absolute !important;  bottom: -90% !important; right: 1%;}
+.regCall{right: 1%;}
+}
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width : 1280px) {
+#mtr .header-form .desc {top: 60px; left: 22px;}
+.irda {bottom: 20px; right: 20px;}
+#mtr .benefits h2 {font-size: 28px;}
+#mtr .benefits .benefit-col {margin: 35px 0 0;}
+#mtr .car h2 { font-size: 28px;}
+#mtr .car p {font-size: 16px; padding:0 2%;}
+#mtr .AboutUs .desc {top: 20px; left: 20px;}
+#mtr .AboutUs .desc { top: 40px; left: 20px;}
+#mtr .AboutUs .desc p {font-size: 16px; padding-right: 0;}
+}
+
+@media only screen and (max-width : 1024px) {
+/*ul.nav.navbar-nav.navbar-right.login { width: 100%; margin-top: 0px; margin-bottom: 15px; margin-right: 0px;}*/	
+#mtr .header-form .desc p { padding-right: 50%;}
+#mtr .header-form .desc h1 { font-size: 40px;  line-height: 44px;}
+#mtr .AboutUs .desc h1 {font-size: 40px; line-height: 50px;}
+#mtr .nav-side-menu li i {padding-left: 15px; padding-right: 35px; font-size: 24px;}
+#mtr .signup { padding: 30px 0px 30px 30px;}
+#mtr .Register .signup { padding: 30px 0px 30px 0px !important;}
+#mtr .nav-side-menu li { font-size: 14px;}
+.callus, .regCall { display:none;}
+.fixed_button {bottom: 43% !important;}
+.ICRightPanel .value { width: 100%; display: inline-block; margin: 0px;}
+.ICRightPanel .label { width: 100%; text-align: left;  display: inline-block;}
+#mtr .listing{ padding:0px 5%;}
+#mtr .AboutUs img.thumb { width: 200px;  height: 200px; }
+#mtr .AboutUs .ProfileName { font-size: 20px; line-height: 36px;}
+#mtr .AboutUs .Designation {font-size: 14px;}
+.PolicyListing .block-view .BuyNow { width: 25%;}
+.PolicyListing .block-view .IC-Desc { width: 35%;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+@media only screen and (max-width : 980px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 812px) {
+#mtr .AboutUs {  padding: 50px 0; }
+.navbar-default.custom-nav .navbar-nav>li>a { font-size: 14px;}
+#mtr .topmenu ul { float: inherit;  width: 100%;}
+#mtr .header-form .desc p { padding-right: 35%; font-size: 14px;  line-height: 28px; margin-bottom:5px;}
+#mtr .header-form .desc h1 { font-size: 36px;  line-height: 44px;}
+#mtr .nav-side-menu{ display:none;}
+#mtr .signup { padding: 60px 0px 30px 0px;}
+#mtr .signup .gender { padding-top: 0px;}
+#mtr .signup .subheading {margin: 0px 0 15px;}
+.callus{ display:none;}
+#mtr .header-form .desc { top: 30px;}
+#mtr .header-form .desc .subheading {font-size: 16px; margin: 10px 0;}
+#mtr .AboutUs .desc h1 { margin-bottom: 10px; font-size: 28px;}
+#mtr .AboutUs .desc p {font-size: 14px;}
+#mtr .AboutUs .desc { margin-top: 15px;}
+#mtr .irda {bottom: 25px; right: 15px;}
+#mtr .benefits, #mtr .car { padding: 50px 0;}
+#mtr .benefits h2 { font-size: 24px;}
+#mtr .footer .footer-col { width: 100%; text-align: center; margin-bottom: 15px;}
+#mtr .footer2 .IRDADetail { margin-top: 56px;}
+#mtr .footer2, .col-sm-12.col-md-6.text-right{ text-align:center;}
+#mtr .signup .Todate{ margin-top:15px;}
+.MainNav .nav.navbar-nav li a { padding: 10px 8px;}
+.ICRightPanel.panel-group {z-index: 0; margin-top:0px;}
+.paddingleft{ padding-left:0px;}
+.ICRightPanel .value { width:auto !important; margin-left: 10px !important;}
+.ICRightPanel .label { width: auto !important; text-align: left;}
+.PolicyListing .block-view .details, .ICName{ display:none;}
+.block-view .links p, .block-view .IDVNCB .ICName p { display: block;}
+ul.nav.nav-list.affix:before { top: 6%; width: 1%;}
+.col-sm-8.col-sm-offset-3.col-md-8.col-md-offset-2.content {margin-top: 45px;}
+.sidebar .nav li a span{ margin-bottom:0px;}
+.custom-nav{ z-index:91;}
+.block-view .IDVNCB .ICName p { font-size:14px !important; text-align:left; font-weight:600; line-height: 1 !important; margin: 8px 0 !important;}
+.block-view .ncbtext .labelbox {position: relative; padding: 0px 0;}
+.PolicyListing .block-view .IC-Desc{ width: 40%;}
+.PolicyListing .block-view .BuyNow{ width:30%;}
+.PolicyListing .block-view .IC { width:30%;}
+.BuyNow .btncover { padding: 10px 10px 0;}
+.sidebar .nav li a span {width: 32px; height: 32px; line-height: 30px;}
+.block-view .buynow-btn span.price { font-size: 18px;}
+.login button.btn-primary{ font-size:14px; padding:5px 10px; line-height:22px; margin: 0 0 15px;}
+.navbar-nav>li>a { padding-top:10px;}
+.column { -webkit-column-count: 1; -moz-column-count: 1; column-count: 1;}
+.sidebar .nav.nav-list.affix { width: 25%;}
+#mtr .signup h1 { font-size: 24px;}
+.stepwizard .textField .edit { font-size: 12px;}
+.PolicyListing .block-view .logobox{ width: 50%; margin-top:5px;}
+.PolicyListing .block-view .IDVNCB{ width: 100%; height: auto;}
+.PolicyListing .block-view .ncbtext a.garages { margin: 5px 0;}
+.WelcomeUser { padding: 10px 0; }
+.custom-nav .nav > li > a { position: relative; display: block; padding: 10px 0px;}
+.custom-nav .navbar-collapse.in { overflow: scroll !important;}
+.BlogDetail .card-title { font-size: 30px;}
+}
+
+@media only screen and (max-width : 773px) {
+.custom-nav .navbar-nav { margin: 0;}
+#back-to-top { bottom:0px; right:22px;}
+.ICRightPanel .ThreeHide{ display:block;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+@media only screen and (max-width : 736px) {
+.padding0{ padding:0px;}
+.custom-nav .navbar-brand { height: 78px;}	
+.navbar-default .navbar-toggle { border-color: #ddd;  margin-top: 22px;}
+#mtr .custom-nav.affix-top { position: static; width:100%; margin-top:0px;}
+#mtr .topmenu { text-align: center !important;}
+#mtr .footer2 .IRDADetail { margin-top: 15px;}
+#mtr .header-form .navbar-nav { display: inline-block; margin-left: 5px;}
+.sidebar { padding-top: 0px;}
+.nav>li>a { padding: 10px 8px !important;}
+#mtr .logMob{ display:block;}
+#mtr .callDesk{display:none;}
+#mtr .mobhide{display:none;}
+ul.logMob{padding-bottom:10px !important;}
+.logMob li:first-child a { color: #ff646c !important;}
+.logMob li a{ padding:10px 8px;}
+#mtr .MobNav { display:inline-block; margin-top:20px; float:right;}
+.MobNav .nav.navbar-nav li { display: inline-block;}
+.MobNav .nav.navbar-nav li a { padding: 0 8px !important;}
+.MobNav ul.nav.navbar-nav { padding: 10px 0;  text-align: center;}
+.stepwizard { padding-top: 79px;}
+.sidebar .nav.nav-list.affix { width: 100%;  height: auto !important;  padding: 1% 0;  text-align: center;}
+.sidebar .nav>li { display: inline-block;  text-align: center;  margin: 0 10px;}
+.stepwizard .Wizardicon { width: 34px; height: 34px; padding:8px 0 0 0; font-size: 12px;}
+.Wizardicon span { display: none;}
+.sidebar .nav>li>a {padding:0 5px !important;}
+.sidebar .MyAccount.nav > li > a {  padding: 0px !important;  font-size: 12px;}
+.sidebar .MyAccount li.Wizardicon{display:none;}
+.sidebar .MyAccount.nav > li { margin: 0 5px; }
+
+.stepwizard p{ display:none;}
+.PolicyListing .block-view .details, .ICName{ display:block; background: #f1f1f1; margin-bottom: 5px; width:100%;}
+.block-view .IDVNCB .ICName p {text-align:center;}
+ul.nav.nav-list.affix:before { border-top: 1px solid #6581a9;  height: 1px; left: 36%; top: 47%; width: 34%;}
+.paddingleft{ padding-left:15px;}
+.block-view .buynow-btn span.price { font-size: 24px;}
+.PaymentPreview .textlabel { margin-bottom: 5px;}
+.ProposerDetail .VRTO{ margin-bottom:15px;}
+.PolicyListing .block-view .IC-Desc{ width: 50%; border-left: 0px;}
+.PolicyListing .block-view .BuyNow{ width:50%;}
+.PolicyListing .block-view .IC { width:100%; border-right:0px; border-bottom:1px solid #ddd;}
+.PolicyListing .block-view .logobox{display:none;}
+.navbar.navbar-default.custom-nav .divider { height: 1px; margin: 9px 0; overflow: hidden; background-color: #e5e5e5;}
+li.WelcomeUser {padding:5px 0;}
+}
+
+@media only screen and (max-width : 667px) {
+.AboutUs .desc p { font-size: 13px; line-height: 24px !important; padding-right:0px !important;}	
+#mtr .car p {font-size: 14px;  line-height: 28px;}
+#mtr .header-form .desc p { padding-right: 12%; font-size: 13px;  line-height: 24px;}
+#mtr .irda{ display:none;}
+.header-form .desc { top: 18px !important;}
+}
+
+@media only screen and (max-width : 640px) {
+
+}
+
+@media only screen and (max-width : 568px) {
+#mtr .header-form .desc p { padding-right: 0%; font-size: 12px; line-height: 18px;}
+.AboutUs .desc h1 { margin-bottom: 0px !important;  font-size: 24px !important;}
+.AboutUs .desc p { font-size: 12px !important; padding-right:0% !important;}
+#mtr .AboutUs .desc { top: 15px !important;}
+#mtr .MobNav { display: inline-block; margin-top: 0px; float: inherit; border-top: 1px solid #ddd; width: 100%;}
+.block-view .buynow-btn span.price { font-size: 18px; font-weight: 400;}
+.block-view .buynow-btn {padding:0px;}
+#mtr .listing{ padding:0px;}
+#mtr .listing span { font-size: 14px;}
+#mtr .listing li { font-size: 14px;}
+a.edit span { display: none;}
+.PolicyListing .block-view .ncbtext, .links { width:100%;}
+#mtr .topmenu li + li { margin-left: 10px;}
+li.WelcomeUser, li.logout{ font-weight:600;}
+.MyProfileTable.table td {  width: 100%; float: left; padding: 8px 0; }
+.sidebar .ForwardProposal.nav.nav-list.affix { height: auto !important;}
+.block-view .addsDetail { width: 96%;  padding-left: 3%;}
+.block-view .morelink {  position: relative;  right: -3%;}
+.BlogDetail .card-title {font-size: 24px;}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+#mtr .header-form .desc p{display:none;}
+#mtr .header-form .desc .subheading{display:block;}	
+#mtr .benefits h2, #mtr .car h2 { font-size: 18px !important; line-height: 24px;}
+#mtr .AboutUs .desc { top: 0px !important;  position: static;  padding:15px;  left: 0px !important;}
+.nav>li>a { padding: 10px 5px;}
+.stepwizard .edittext { white-space: nowrap; width: 340px; text-overflow: ellipsis; overflow: hidden;}
+.block-view .addsDetail { display: block;}
+.block-view .morelink { top: 0; text-align: center;}
+ul.nav.nav-list.affix:before { width: 40%;}
+#mtr .topmenu li + li {  margin-left: 0px;}
+.ICRightPanel .value {  margin-left: 0px !important;}
+.textWrap { width: 100% !important;}
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 375px) {
+#mtr .topmenu li a{ font-size:13px !important;}
+.nav>li>a { padding: 5px 0px !important;}
+.header-form .desc h1 {font-size: 28px!important; line-height: 32px !important;}
+.header-form .desc .subheading { font-size: 14px !important;}
+.MobNav .nav.navbar-nav li a { padding: 0 5px !important;}
+ul.nav.nav-list.affix:before { width: 50%;}
+.sidebar .nav>li { margin: 0 8px;}
+#mtr .stepwizard h1 { font-size: 18px;}
+.stepwizard .edittext { width: 290px;}
+}
+
+@media only screen and (max-width : 320px) {
+#mtr .topmenu li a { font-size: 11px !important;}
+.sidebar .nav>li { margin: 0 4px;}
+.block-view .links a, .PolicyListing .block-view .ncbtext a.garages { font-size: 11px;}
+.stepwizard .edittext { width: 250px;}
+.block-view .buynow-btn span.price { font-size: 15px; line-height:22px;}
+#mtr .topmenu li + li { margin-left: 3px;}
+}
