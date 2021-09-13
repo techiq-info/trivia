@@ -63,7 +63,7 @@ class HomeController extends Controller
         $emailAddress = $requestInput["email"];
         $username = $requestInput["yourname"];
 
-        $quoteId =  $request->session()->get('quote_id');
+   echo     $quoteId =  $request->session()->get('quote_id'); //die();
 
         //  if quote not set in session then call api and set new quote for user
 
@@ -110,21 +110,20 @@ class HomeController extends Controller
 
         if(count($questions)<=0)
         {
+
             die("You completed the Quiz");
         }
 
         $currentQuestion  = array_pop($questions);
-
-        var_dump($currentQuestion);
         $questions = $request->session()->put("quote_questions", $questions);
 
 
-        echo "<pre>";
-        $allsession = $request->session()->all();
+        // echo "<pre>";
+        // $allsession = $request->session()->all();
 
-        print_r($allsession);
+        // print_r($allsession);
         
-        
+        $this->viewData['currentquestion'] = $currentQuestion;
         $this->viewData['username'] = $request->session()->get('username');
         $this->viewData['meta_title'] = "Trivia Game";
         return view('website.quiz',$this->viewData);
