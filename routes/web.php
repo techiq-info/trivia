@@ -12,10 +12,16 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', 'Website\StaticPagesController@index')->name('home');
+Route::get('/', 'HomeController@index')->name('home');
 
 // Static Pages
-Route::get('home', ['as' => 'home', 'uses' => 'Website\StaticPagesController@index']);
+Route::get('home', ['as' => 'home', 'uses' => 'HomeController@index']);
+Route::post('play', ['as' => 'play', 'uses' => 'HomeController@play']);
+Route::get('quiz', ['as' => 'quiz', 'uses' => 'HomeController@QuizPlay']);
+
+
+
+
 Route::get('about-us', ['as' => 'about-us', 'uses' => 'Website\StaticPagesController@about']);
 Route::get('contact-us', ['as' => 'contact-us', 'uses' => 'Website\StaticPagesController@contact']);
 Route::post('contact-us/store', ['as' => 'contact-us/store', 'uses' => 'Website\StaticPagesController@emailer']);

@@ -27,7 +27,7 @@ class CheckAdminPermission
      */
     public function handle($request, Closure $next)
     {
-        
+        return $next($request);
         try {
             $routeName = $request->route()->getName();
             // dd($routeName);

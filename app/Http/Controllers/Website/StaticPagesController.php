@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Session;
 use App\Mail\contactUs;
 use App\Http\Models\Page;
+use App\Http\Services\NumberApiService;
 use Validator, DB, Mail, Response;
 
 class StaticPagesController extends Controller
@@ -27,12 +28,6 @@ class StaticPagesController extends Controller
         // $arrPageData = $page->getPageDataBySlug($slug);
         // $pageDataObj = $arrPageData['data'];
         $this->viewData['meta_title'] = "Trivia Game";//$pageDataObj->meta_title;
-        // $this->viewData['meta_description'] = $pageDataObj->meta_description;
-        // $this->viewData['meta_keywords'] = $pageDataObj->meta_keywords;
-        // Get Page Data (Meta Title / Meta Desc / Meta Keywords) => END
-        // $pageObj = new Page();
-        // $arrPageContent = $pageObj->getPageDataBySlug($slug);
-        // $this->viewData['all_Content'] = $arrPageContent['data'];
         return view('website.staticpages.index',$this->viewData);
     }
 	

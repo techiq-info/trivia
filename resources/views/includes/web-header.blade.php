@@ -10,20 +10,9 @@
          <a class="nav-link bg-nfont" href="/">Home <span class="sr-only">(current)</span></a>
        </li>
        <li class="nav-item">
-         <a class="nav-link" href="about-us"> About</a>
+         <a class="nav-link" href="#"> <?php echo $username;?></a>
        </li>
-      <!--  <li class="nav-item">
-         <a class="nav-link" href="#"> Service</a>
-       </li> -->
-       <li class="nav-item">
-         <a class="nav-link " href="/contact-us"> Contact</a>
-       </li>
-       <!-- <li class="nav-item">
-         <a class="nav-link bor-lr" href="#"> <i class="fa fa-search" aria-hidden="true"></i></a>
-       </li> -->
-       <li class="nav-item">
-         <a class="nav-link " href="#"> Call us : <span> +91 522 4042108</span></a>
-       </li>
+      
      </ul>
    </div>
  </div>

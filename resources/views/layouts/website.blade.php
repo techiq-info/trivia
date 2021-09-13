@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="csrf-token" content="{{ csrf_token() }}">  
-        <title>:: Fondos ::</title>
+        <title>Trivia Game</title>
 
         <!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -37,15 +37,10 @@
 
     <body>
             <!--Page Header-->
-            @include('includes.web-header') 
-            
+            @include('includes.web-header')            
 
             <!-- Page Content -->
-            @yield('page-content')
-        
-            <!-- Page Footer -->
-            @include('includes.web-footer')
-			
-			<script src="{{ asset('js/custom_bike.js') }}"></script>
+            @yield('page-content')			
+			<script src="{{ asset('js/custom.js') }}"></script>
 	</body>
 </html>
