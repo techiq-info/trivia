@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg fixed" style="padding:0 10px">
      <div class="container">
-      <a class="navbar-brand"  href="/"><img src="{{ asset('images/logo.png') }}" class="w-20 w-40"></a>
+      <a class="navbar-brand"  href="/"><img src="{{ asset('images/trivia-logos.jpg') }}" class="w-20 w-40"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>

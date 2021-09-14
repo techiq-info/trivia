@@ -18,7 +18,7 @@ Route::get('/', 'HomeController@index')->name('home');
 Route::get('home', ['as' => 'home', 'uses' => 'HomeController@index']);
 Route::post('play', ['as' => 'play', 'uses' => 'HomeController@play']);
 Route::get('quiz', ['as' => 'quiz', 'uses' => 'HomeController@QuizPlay']);
-
+Route::post('submitanswer', ['as' => 'submitanswer', 'uses' => 'HomeController@submitAnswerQuiz']);
 
 
 
