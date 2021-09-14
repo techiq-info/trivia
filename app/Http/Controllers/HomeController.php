@@ -107,11 +107,10 @@ class HomeController extends Controller
 
         $questions = $request->session()->get("quote_questions");
         // pull one element
-
-        if(count($questions)<=0)
+        
+        if(!$questions)
         {
-
-            die("You completed the Quiz");
+            return view('website.complete');
         }
 
         $currentQuestion  = array_pop($questions);
