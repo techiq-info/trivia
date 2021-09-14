@@ -159,14 +159,22 @@ class HomeController extends Controller
         {
              $results = $request->session()->get("results");
             // Save Result in DB
-            
+            $correct = 0;
+            $wrong = 0;
 
+            foreach($results as $result) {
+                if($result['status'] == "Correct") {
+                    $correct = $correct + 1;
+                } else {
+                    $wrong = $wrong + 1;
+                }
 
+            }
 
             $this->viewData['results'] = $results;
             $this->viewData['totalquestions'] = count($results);
-            $this->viewData['correctans'] = count($results);
-            $this->viewData['wrongans'] = count($results);
+            $this->viewData['correctans'] = $correct;
+            $this->viewData['wrongans'] = $wrong;
             $this->viewData['meta_title'] = "Trivia Game";
 
             // refresh session and delete the quiz quote session
