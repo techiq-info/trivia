@@ -1882,3 +1882,13 @@ html,body{background-color:#2b2a2a;}
     50% {background-color: #3dabe3ed;}
     25%{background-color:#002f5d;} 
   }
+
+html, body, .main-container {
+    height: 100%;
+}
+.question {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}

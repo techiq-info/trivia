@@ -36,11 +36,13 @@
     </head>
 
     <body>
+		<div class="main-container">
             <!--Page Header-->
             @include('includes.web-header')            
 
             <!-- Page Content -->
             @yield('page-content')			
 			<script src="{{ asset('js/custom.js') }}"></script>
+		</div>
 	</body>
 </html>
